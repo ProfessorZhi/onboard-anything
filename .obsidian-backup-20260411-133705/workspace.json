@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "ea750b09a6ef6238",
+    "type": "split",
+    "children": [
+      {
+        "id": "be3dad4f38f3a7a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e68e5212180205c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/课程首页.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "课程首页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a48cb282a120dad6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b35f097dc548bb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d50a228a71ec7a56",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e1b6d63bf25e36e4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "1d3cb62618d94d5c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec60b7dc3ee5e624",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9e37f2e70a54b82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9157bd81d3d905d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/课程首页.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "课程首页 的反向链接列表"
+            }
+          },
+          {
+            "id": "e58e85144aaa3506",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/课程首页.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "课程首页 的出链列表"
+            }
+          },
+          {
+            "id": "b21b07d4493c3555",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "bf6a69505ae9cb00",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "c2ef189f8498b419",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/课程首页.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "课程首页 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "e68e5212180205c7",
+  "lastOpenFiles": [
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/课程首页.md",
+    "创建链接.md",
+    "欢迎.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？/资源清单.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？/资源",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？/讲解过程.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？/练习题.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？/知识框架.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？/字幕.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？/分P标题.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/章节首页.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/章节资源清单.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/章节练习题.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/章节知识框架.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/章节分P标题列表.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1/02-P2-1-什么是ClaudeCode？",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/02-1",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍/资源清单.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍/资源",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍/讲解过程.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍/练习题.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍/知识框架.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍/字幕.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍/分P标题.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/章节首页.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/章节资源清单.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/章节知识框架.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/章节练习题.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/章节分P标题列表.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0/01-P1-0-Introduction介绍",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/01-0",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/10-10/10-P10-10-Conclusion结论/资源清单.md",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/10-10/10-P10-10-Conclusion结论/资源",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/10-10/10-P10-10-Conclusion结论",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/10-10",
+    "engineering sciences/computer science/softerware tutorials/coding agent/【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码/09-9/09-P9-9-基于Figma原型创建Web应用/资源"
+  ]
+}

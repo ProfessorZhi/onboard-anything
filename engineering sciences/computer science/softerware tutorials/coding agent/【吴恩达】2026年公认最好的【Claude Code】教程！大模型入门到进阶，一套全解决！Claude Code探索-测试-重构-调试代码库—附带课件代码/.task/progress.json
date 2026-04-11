@@ -1,0 +1,9 @@
+{
+  "status": "paused",
+  "current_stage": "resource_extraction_completed",
+  "completed_pages": 10,
+  "total_pages": 10,
+  "current_page": null,
+  "last_error": "",
+  "resumable": true
+}
