@@ -1,0 +1,34 @@
+# 【吴恩达】2026年公认最好的【Claude Code】教程！大模型入门到进阶，一套全解决！Claude Code探索-测试-重构-调试代码库—附带课件代码 原始分P目录
+
+- BV：`BV1RSFUzVEAG`
+- 总分P数：10
+
+## 导论篇-课程介绍
+- P1 [[../1-导论篇-课程介绍/P01-Introduction介绍/P01-Introduction介绍.md|0-Introduction介绍]]
+
+## 导论篇-Claude Code概述
+- P2 [[../2-导论篇-ClaudeCode概述/P02-什么是ClaudeCode？/P02-什么是ClaudeCode？.md|1-什么是Claude Code？]]
+
+## 基础篇-环境配置与代码库理解
+- P3 [[../3-基础篇-环境配置与代码库理解/P03-设置和代码库理解/P03-设置和代码库理解.md|3-设置和代码库理解]]
+
+## 实战篇-功能添加与上下文管理
+- P4 [[../4-实战篇-功能添加与上下文管理/P04-添加功能/P04-添加功能.md|4-添加功能]]
+
+## 实战篇-测试驱动调试与代码重构
+- P5 [[../5-实战篇-测试驱动调试与代码重构/P05-测试、错误调试和代码重构/P05-测试、错误调试和代码重构.md|5-测试、错误调试和代码重构]]
+
+## 实战篇-多会话并行与Git工作树
+- P6 [[../6-实战篇-多会话并行与Git工作树/P06-同时添加多个功能/P06-同时添加多个功能.md|6-同时添加多个功能]]
+
+## 实战篇-GitHub集成与Hooks机制
+- P7 [[../7-实战篇-GitHub集成与Hooks机制/P07-GitHub集成与Hooks探索/P07-GitHub集成与Hooks探索.md|7-GitHub集成与Hooks探索]]
+
+## 拓展篇-Jupyter笔记本重构与Streamlit仪表盘
+- P8 [[../8-拓展篇-Jupyter笔记本重构与Streamlit仪表盘/P08-重构Jupyter笔记本并创建仪表盘/P08-重构Jupyter笔记本并创建仪表盘.md|8-重构Jupyter笔记本并创建仪表盘]]
+
+## 拓展篇-Figma原型到Web应用
+- P9 [[../9-拓展篇-Figma原型到Web应用/P09-基于Figma原型创建Web应用/P09-基于Figma原型创建Web应用.md|9-基于Figma原型创建Web应用]]
+
+## 总结篇-课程回顾与展望
+- P10 [[../10-总结篇-课程回顾与展望/P10-Conclusion结论/P10-Conclusion结论.md|10-Conclusion结论]]

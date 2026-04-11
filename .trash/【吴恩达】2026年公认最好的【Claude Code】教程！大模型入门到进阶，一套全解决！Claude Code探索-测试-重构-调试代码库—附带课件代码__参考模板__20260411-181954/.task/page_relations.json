@@ -1,0 +1,66 @@
+{
+  "1": [
+    {
+      "target_page": 2,
+      "relation": "前置",
+      "reason": "课程整体介绍后，需要先了解Claude Code是什么才能开始学习使用"
+    },
+    {
+      "target_page": 10,
+      "relation": "复盘",
+      "reason": "课程从介绍开篇，以总结收尾，形成完整的学习闭环"
+    }
+  ],
+  "2": [
+    {
+      "target_page": 3,
+      "relation": "前置",
+      "reason": "理解Claude Code工具本身是配置环境和理解代码库的前置知识"
+    }
+  ],
+  "3": [
+    {
+      "target_page": 4,
+      "relation": "前置",
+      "reason": "环境配置和代码库理解是后续实战添加功能的基础"
+    }
+  ],
+  "4": [
+    {
+      "target_page": 6,
+      "relation": "展开",
+      "reason": "单功能添加是同时添加多个功能的基础概念，多功能场景是单功能的自然扩展"
+    },
+    {
+      "target_page": 8,
+      "relation": "应用",
+      "reason": "添加功能的上下文管理能力直接应用于Jupyter笔记本的重构实践"
+    }
+  ],
+  "5": [
+    {
+      "target_page": 7,
+      "relation": "展开",
+      "reason": "测试调试和代码重构属于代码层面的质量保障，GitHub集成是版本控制层面的扩展"
+    },
+    {
+      "target_page": 8,
+      "relation": "应用",
+      "reason": "代码重构和调试技能在Jupyter笔记本重构场景中直接落地"
+    }
+  ],
+  "6": [
+    {
+      "target_page": 7,
+      "relation": "前置",
+      "reason": "同时添加多个功能后产生的变更需要GitHub进行版本控制和协作管理"
+    }
+  ],
+  "7": [
+    {
+      "target_page": 9,
+      "relation": "应用",
+      "reason": "GitHub集成是现代Web应用开发的标配工作流，与Figma原型开发形成完整交付链"
+    }
+  ]
+}

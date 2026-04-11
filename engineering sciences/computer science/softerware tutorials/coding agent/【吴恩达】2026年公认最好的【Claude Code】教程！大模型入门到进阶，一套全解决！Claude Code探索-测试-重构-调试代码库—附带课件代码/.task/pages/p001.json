@@ -1,12 +1,12 @@
 {
   "page": 1,
   "title": "0-Introduction介绍",
-  "chapter_title": "01-0",
+  "chapter_title": "导论篇-课程介绍与学习路径",
   "subtitle_extracted": true,
-  "suitable_subtitle": false,
-  "subtitle_language": "missing",
-  "subtitle_missing_reason": "当前视频没有可抓取的中文字幕或英文字幕",
-  "subtitle_translation_generated": false,
+  "suitable_subtitle": true,
+  "subtitle_language": "en",
+  "subtitle_missing_reason": "",
+  "subtitle_translation_generated": true,
   "lecture_reconstructed": true,
   "knowledge_built": true,
   "exercises_generated": true,
@@ -14,6 +14,39 @@
   "video_downloaded": false,
   "video_path": "",
   "last_error": "",
-  "_subtitles_payload": [],
-  "_ai_subtitle_markdown": ""
+  "_subtitles_payload": [
+    {
+      "lang": "ASR 英文字幕",
+      "lan": "en",
+      "entries": [
+        {
+          "from": 0,
+          "to": 55,
+          "content": "Welcome to color the highway agency ding assistance distorter courses, build in pony's with anthropic and anthropic s eda y is back to share U. S. This practices, how to use clock code. I'm really excited this shore cause clock, cause my pressa favorite coding sun right now, and IT has posted my many other developers, protium ity, by a large margin. And IT is a tool, a lot of death towards, and S, O, want to get the air with in thropp to teach holly y. The definition, of course, on all of the most important ideas behind how they use it t in the systematic way. Thanks, Andrew. I'm excited to be back here and started like you mention from explaining what the tool is, how IT works all the way towards using IT. In parallel, many different tools, including good workers and M, C, P surfers, will seen in over the last couple years as AI assist coding has evil rafle."
+        },
+        {
+          "from": 55,
+          "to": 110,
+          "content": "Starts it from maybe people asking os, okay no calling questions to then get up auto complete to then you are various tools that became more more autonomy, clo. When IT was released was definitely step up in terms of the degree of agency or the amount of stuff that the coding assistant could D, O by yourself. I think many people surprise that you could said, IT, T, S, that code will work on for many minutes, sometimes even more than a few minutes. And now they are developers. They are all custrin, not just a single court instance ins, but even several of them working in parallel, different pots of a copies, but cordiner orders has to say the best practices that is not why they known. And if you have not work for people close the best practices, I think there could be a big up live store for musty these best practices and knowing how they drive that amazing furca vy that i'm seeing developers have have using."
+        },
+        {
+          "from": 110,
+          "to": 165,
+          "content": "Clock de S. O. As we start to talk about those best s practices, a key tip for working with clock g code is providing clear context to help clog code achieve the task you want. Official entities means pointing cloud code to the relevant files, clearly describing the features and functionality that you want and making sure that you're properly extending the capabilities of cloud code with mcp services and other tools in that ecosystem. In this course, you'll apply those best practices to three different examples. We'll start with a rag chapt, and you'll implement the features from the front end to the back end, including refectory in code writing tests and then using the good habit, a gration to work with power quests and fixing issues, you'll make use of many cloud code features like planning, thinking, moods, creating parallel sons and managing class memory. For the second example will shift ears and work with jupiters nooks to explore. E commerce. Data will refer or no books using code code."
+        },
+        {
+          "from": 165,
+          "to": 220,
+          "content": "Remove a dunton code and create powerful dashboards with web applications. Finally will move to create a visual muka based in figure a, and use code code. The figure M, C, P server and a different MCP server to import the design, iterate, test and build agenticity a powerful front and application if you are not currently a cocote user. I think learning this set of ideas will give you a meaningful acceleration in the way that I wish you can engineer a systems. And even if you are a current color user, I think having elshender best practices with you in a comprehensive and systematic way, well, I hope leave you with quite a few new things you try that will be useful for your work I like to send from the vai ha salomi, who had contributed IT to this course. In the next video, eli will share quote underlying category, and you might be surprised by half simple."
+        },
+        {
+          "from": 220,
+          "to": 275,
+          "content": "All the architectures coco realize on just a small number of tools, search for patterns within your coal files to this directory. Look at falls to regard, IT does not rely on semantic ally and bedding your code in a code base or transform a into a social structure. And one of the things I think has made cloud's effective is how I agenticity can be put your code to take notes in the far our com d to figure out automatics ly, what is going on the your copy to the drive decision making, on how to advance your code. That's right. And because of that and not having a need to index the code base, you can ensure the code base stays low. We'll talk about some of the security remaining with that, SO. Lei started, and i'll see you in the next media."
+        }
+      ]
+    }
+  ],
+  "_ai_subtitle_markdown": "# P1 0-Introduction介绍 中文字幕\n\n- [0.0-55.0] 欢迎回到 Colab、Anthropic 和 Anthropic 的 EdAI 课程。Andrew 回来了，和大家分享实用技巧，讲解如何使用 Claude Code。我非常激动开设这门课程，因为 Claude Code 是我目前最喜欢的编码工具，它让包括我在内的许多其他开发者的生产力大幅提升。这是一个极其强大的工具，我想与 Anthropic 合作，系统地教授如何使用它的最佳实践。感谢 Andrew。很高兴回到这里，就像你提到的，从解释这个工具是什么、它如何工作，一直到如何使用它。与此同时，在过去几年里，AI 辅助编码已经彻底改变了各种工具，包括 Claude Code、MCP 服务器等。\n- [55.0-110.0] 它从人们询问简单问题开始，到获得自动补全，再到各种工具变得越来越自主。当 Claude Code 发布时，在编码助手可以自主完成的程度方面确实是一个飞跃。我认为很多人都惊讶于它可以独立工作几分钟，有时甚至超过几分钟。现在开发者们都在使用它，不仅是一个单一代码实例，而是多个实例并行工作，处理代码库的不同部分。但关于最佳实践，我们仍然缺乏系统的指导。这就是为什么这些最佳实践和使用它们驱动惊人生产力的方法非常重要。\n- [110.0-165.0] Claude Code。那么当我们开始讨论这些最佳实践时，使用 Claude Code 的一个关键技巧是提供清晰的上下文来帮助 Claude Code 完成你想要的任务。这意味着指向相关文件、清楚地描述你想要的功能特性，并确保你正在正确地使用 MCP 服务和该生态系统中的其他工具来扩展 Claude Code 的能力。在本课程中，你将把这些最佳实践应用到三个不同的例子中。我们将从 RAG 章节开始，实现从前端到后端的功能，包括代码重构、编写测试，然后使用 GitHub 集成来处理拉取请求并修复问题。你将使用许多 Claude Code 功能，如规划、思考模式、创建并行任务和管理上下文记忆。对于第二个例子，我们将转换到使用 Jupyter Notebooks 来探索电商数据，并使用 Claude Code 进行数据分析和可视化。\n- [165.0-220.0] 移除重复代码并创建强大的仪表板和 Web 应用程序。最后我们将转向创建一个基于 Figma 的视觉音乐应用，使用 Claude Code 和 Figma MCP 服务器以及不同的 MCP 服务器来导入设计、迭代、测试和构建一个强大的前端应用程序。如果你目前还不是 Claude Code 用户，我认为学习这些理念将为你如何用 AI 辅助工程师开发系统带来显著的加速。即使你已经是当前的 Claude Code 用户，系统地学习这些最佳实践，我相信会让你学到很多可以应用到工作中的新东西。我想感谢 Eli Hasomi，他为这门课程做出了贡献。在下一个视频中，Eli 将分享一个令人惊讶的底层架构。\n- [220.0-275.0] 所有 Claude Code 的架构都依赖于少数几个简单工具：搜索代码文件中的模式、查看文件结构。它不依赖语义嵌入或代码库的向量化，也不将其转换为图结构。我认为 Claude Code 如此有效的原因之一是它如何让 agent 在你的代码中做笔记，通过命令行自动弄清楚代码中发生了什么，从而驱动决策制定来推进你的代码。没错。正因为如此，由于不需要索引代码库，你可以确保代码库保持轻量。我们会讨论一些与此相关的安全问题。那么，让 Eli 开始吧，下一个视频见。",
+  "subtitle_source": "阿里云 ASR"
 }
