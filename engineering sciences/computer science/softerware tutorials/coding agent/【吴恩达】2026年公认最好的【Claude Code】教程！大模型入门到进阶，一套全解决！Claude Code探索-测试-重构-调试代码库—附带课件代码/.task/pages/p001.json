@@ -1,16 +1,16 @@
 {
   "page": 1,
   "title": "0-Introduction介绍",
-  "chapter_title": "导论篇-课程介绍与学习路径",
+  "chapter_title": "1-0-Introduction介绍",
   "subtitle_extracted": true,
   "suitable_subtitle": true,
   "subtitle_language": "en",
   "subtitle_missing_reason": "",
   "subtitle_translation_generated": true,
-  "lecture_reconstructed": true,
-  "knowledge_built": true,
-  "exercises_generated": true,
-  "resources_extracted": true,
+  "lecture_reconstructed": false,
+  "knowledge_built": false,
+  "exercises_generated": false,
+  "resources_extracted": false,
   "video_downloaded": false,
   "video_path": "",
   "last_error": "",
@@ -20,33 +20,454 @@
       "lan": "en",
       "entries": [
         {
-          "from": 0,
-          "to": 55,
-          "content": "Welcome to color the highway agency ding assistance distorter courses, build in pony's with anthropic and anthropic s eda y is back to share U. S. This practices, how to use clock code. I'm really excited this shore cause clock, cause my pressa favorite coding sun right now, and IT has posted my many other developers, protium ity, by a large margin. And IT is a tool, a lot of death towards, and S, O, want to get the air with in thropp to teach holly y. The definition, of course, on all of the most important ideas behind how they use it t in the systematic way. Thanks, Andrew. I'm excited to be back here and started like you mention from explaining what the tool is, how IT works all the way towards using IT. In parallel, many different tools, including good workers and M, C, P surfers, will seen in over the last couple years as AI assist coding has evil rafle."
+          "from": 2.19,
+          "to": 5.47,
+          "content": "Welcome to Cloud Code, the highly agentic coding assistant."
         },
         {
-          "from": 55,
-          "to": 110,
-          "content": "Starts it from maybe people asking os, okay no calling questions to then get up auto complete to then you are various tools that became more more autonomy, clo. When IT was released was definitely step up in terms of the degree of agency or the amount of stuff that the coding assistant could D, O by yourself. I think many people surprise that you could said, IT, T, S, that code will work on for many minutes, sometimes even more than a few minutes. And now they are developers. They are all custrin, not just a single court instance ins, but even several of them working in parallel, different pots of a copies, but cordiner orders has to say the best practices that is not why they known. And if you have not work for people close the best practices, I think there could be a big up live store for musty these best practices and knowing how they drive that amazing furca vy that i'm seeing developers have have using."
+          "from": 5.47,
+          "to": 7.43,
+          "content": "This short course is built in partnership with"
         },
         {
-          "from": 110,
-          "to": 165,
-          "content": "Clock de S. O. As we start to talk about those best s practices, a key tip for working with clock g code is providing clear context to help clog code achieve the task you want. Official entities means pointing cloud code to the relevant files, clearly describing the features and functionality that you want and making sure that you're properly extending the capabilities of cloud code with mcp services and other tools in that ecosystem. In this course, you'll apply those best practices to three different examples. We'll start with a rag chapt, and you'll implement the features from the front end to the back end, including refectory in code writing tests and then using the good habit, a gration to work with power quests and fixing issues, you'll make use of many cloud code features like planning, thinking, moods, creating parallel sons and managing class memory. For the second example will shift ears and work with jupiters nooks to explore. E commerce. Data will refer or no books using code code."
+          "from": 7.43,
+          "to": 9.51,
+          "content": "Anthropic and Anthropics at the show."
         },
         {
-          "from": 165,
-          "to": 220,
-          "content": "Remove a dunton code and create powerful dashboards with web applications. Finally will move to create a visual muka based in figure a, and use code code. The figure M, C, P server and a different MCP server to import the design, iterate, test and build agenticity a powerful front and application if you are not currently a cocote user. I think learning this set of ideas will give you a meaningful acceleration in the way that I wish you can engineer a systems. And even if you are a current color user, I think having elshender best practices with you in a comprehensive and systematic way, well, I hope leave you with quite a few new things you try that will be useful for your work I like to send from the vai ha salomi, who had contributed IT to this course. In the next video, eli will share quote underlying category, and you might be surprised by half simple."
+          "from": 9.51,
+          "to": 11.19,
+          "content": "It's back to share with us."
         },
         {
-          "from": 220,
-          "to": 275,
-          "content": "All the architectures coco realize on just a small number of tools, search for patterns within your coal files to this directory. Look at falls to regard, IT does not rely on semantic ally and bedding your code in a code base or transform a into a social structure. And one of the things I think has made cloud's effective is how I agenticity can be put your code to take notes in the far our com d to figure out automatics ly, what is going on the your copy to the drive decision making, on how to advance your code. That's right. And because of that and not having a need to index the code base, you can ensure the code base stays low. We'll talk about some of the security remaining with that, SO. Lei started, and i'll see you in the next media."
+          "from": 11.19,
+          "to": 13.51,
+          "content": "Let's practice this how to use Cloud Code."
+        },
+        {
+          "from": 13.51,
+          "to": 15.27,
+          "content": "I'm really excited about this short course."
+        },
+        {
+          "from": 15.27,
+          "to": 18.55,
+          "content": "Cloud Code is my personal favorite coding assistant right now,"
+        },
+        {
+          "from": 18.55,
+          "to": 20.55,
+          "content": "and it has boosted my and"
+        },
+        {
+          "from": 20.55,
+          "to": 24.43,
+          "content": "many other developers productivity by a large margin."
+        },
+        {
+          "from": 24.43,
+          "to": 27.59,
+          "content": "It is a tool with a lot of depth to it."
+        },
+        {
+          "from": 27.59,
+          "to": 29.19,
+          "content": "So we want to get together with"
+        },
+        {
+          "from": 29.19,
+          "to": 32.31,
+          "content": "and Thrapik to teach hopefully the definitive course"
+        },
+        {
+          "from": 32.31,
+          "to": 35.73,
+          "content": "on all of the most important ideas behind how"
+        },
+        {
+          "from": 35.73,
+          "to": 37.83,
+          "content": "to use it in a systematic way."
+        },
+        {
+          "from": 37.83,
+          "to": 38.55,
+          "content": "Thanks, Andrew."
+        },
+        {
+          "from": 38.55,
+          "to": 40.47,
+          "content": "I'm excited to be back here and start,"
+        },
+        {
+          "from": 40.47,
+          "to": 43.35,
+          "content": "like you mentioned, from explaining what the tool is,"
+        },
+        {
+          "from": 43.35,
+          "to": 46.27,
+          "content": "how it works, all the way towards using it in parallel"
+        },
+        {
+          "from": 46.27,
+          "to": 48.47,
+          "content": "with many different tools, including Git WorkTrees"
+        },
+        {
+          "from": 48.47,
+          "to": 50.11,
+          "content": "and MCP servers."
+        },
+        {
+          "from": 50.11,
+          "to": 51.79,
+          "content": "Well, seen in the last couple of years,"
+        },
+        {
+          "from": 51.79,
+          "to": 54.87,
+          "content": "is AI-assisted coding has evolved rapidly."
+        },
+        {
+          "from": 54.87,
+          "to": 57.35,
+          "content": "It started from maybe people asking"
+        },
+        {
+          "from": 57.35,
+          "to": 64.07,
+          "content": "OMS occasional coding questions to then GitHub auto-complete to then your various tools that"
+        },
+        {
+          "from": 64.07,
+          "to": 69.59,
+          "content": "became more and more autonomous. And Cloud Code when it was released was definitely a step up in"
+        },
+        {
+          "from": 69.59,
+          "to": 75.03,
+          "content": "terms of the degree of agency or the amount of stuff that the coding assistant could do by itself."
+        },
+        {
+          "from": 75.03,
+          "to": 79.59,
+          "content": "And so I think many people are surprised that you could set a task that Cloud would work on"
+        },
+        {
+          "from": 79.59,
+          "to": 84.15,
+          "content": "for many minutes or sometimes even more than a few minutes. And now they are developers, they"
+        },
+        {
+          "from": 84.15,
+          "to": 87.39,
+          "content": "they're orchestrating not just a single cloud instance,"
+        },
+        {
+          "from": 87.39,
+          "to": 89.35,
+          "content": "but even several of them working in parallel"
+        },
+        {
+          "from": 89.35,
+          "to": 91.11,
+          "content": "on different parts of a code base."
+        },
+        {
+          "from": 91.11,
+          "to": 94.35,
+          "content": "But coordinating all this has to say the best practices"
+        },
+        {
+          "from": 94.35,
+          "to": 96.11,
+          "content": "that is not widely known."
+        },
+        {
+          "from": 96.11,
+          "to": 98.39,
+          "content": "And if you have not worked with people"
+        },
+        {
+          "from": 98.39,
+          "to": 100.11,
+          "content": "close to the best practices,"
+        },
+        {
+          "from": 100.11,
+          "to": 102.91,
+          "content": "I think they could be a big uplift still"
+        },
+        {
+          "from": 102.91,
+          "to": 105.19,
+          "content": "for mastering these best practices"
+        },
+        {
+          "from": 105.19,
+          "to": 107.91,
+          "content": "and knowing how they drive that amazing productivity"
+        },
+        {
+          "from": 107.91,
+          "to": 111.07,
+          "content": "that I've seen many developers have using cloud code."
+        },
+        {
+          "from": 111.07,
+          "to": 113.59,
+          "content": "So as we start to talk about those best practices,"
+        },
+        {
+          "from": 113.59,
+          "to": 115.87,
+          "content": "A key tip for working with Cloud Code"
+        },
+        {
+          "from": 115.87,
+          "to": 118.91,
+          "content": "is providing clear context to help Cloud Code achieve"
+        },
+        {
+          "from": 118.91,
+          "to": 120.51,
+          "content": "the task you want efficiently."
+        },
+        {
+          "from": 120.51,
+          "to": 123.63,
+          "content": "This means pointing Cloud Code to the relevant files,"
+        },
+        {
+          "from": 123.63,
+          "to": 125.99,
+          "content": "clearly describing the features and functionality"
+        },
+        {
+          "from": 125.99,
+          "to": 128.03,
+          "content": "that you want, and making sure that you're"
+        },
+        {
+          "from": 128.03,
+          "to": 130.59,
+          "content": "properly extending the capabilities of Cloud"
+        },
+        {
+          "from": 130.59,
+          "to": 134.11,
+          "content": "Code with MCP servers and other tools in that ecosystem."
+        },
+        {
+          "from": 134.11,
+          "to": 136.71,
+          "content": "In this course, you'll apply those best practices"
+        },
+        {
+          "from": 136.71,
+          "to": 138.43,
+          "content": "to three different examples."
+        },
+        {
+          "from": 138.43,
+          "to": 140.27,
+          "content": "We'll start with a rag chatbot,"
+        },
+        {
+          "from": 140.27,
+          "to": 142.47,
+          "content": "and you'll implement the features from the front end"
+        },
+        {
+          "from": 142.47,
+          "to": 145.95,
+          "content": "to the backend, including refactoring code writing tests,"
+        },
+        {
+          "from": 145.95,
+          "to": 147.87,
+          "content": "and then using the GitHub integration"
+        },
+        {
+          "from": 147.87,
+          "to": 150.19,
+          "content": "to work with pull requests and fixing issues."
+        },
+        {
+          "from": 150.19,
+          "to": 152.47,
+          "content": "You'll make use of many Cloud Code features"
+        },
+        {
+          "from": 152.47,
+          "to": 155.59,
+          "content": "like planning, thinking modes, creating parallel sessions,"
+        },
+        {
+          "from": 155.59,
+          "to": 157.35,
+          "content": "and managing Cloud's memory."
+        },
+        {
+          "from": 157.35,
+          "to": 159.35,
+          "content": "For the second example, we'll shift gears"
+        },
+        {
+          "from": 159.35,
+          "to": 162.83,
+          "content": "and work with Jupyter Notebooks to explore e-commerce data."
+        },
+        {
+          "from": 162.83,
+          "to": 165.19,
+          "content": "We'll refactor Notebooks using Cloud Code,"
+        },
+        {
+          "from": 165.19,
+          "to": 168.27,
+          "content": "remove redundant code, and create powerful dashboards"
+        },
+        {
+          "from": 168.27,
+          "to": 169.71,
+          "content": "with web applications."
+        },
+        {
+          "from": 169.71,
+          "to": 172.23,
+          "content": "Finally, we'll move to create a visual mockup"
+        },
+        {
+          "from": 172.23,
+          "to": 176.15,
+          "content": "based in Figma and use Cloud Code, the Figma MCP server,"
+        },
+        {
+          "from": 176.15,
+          "to": 179.31,
+          "content": "and a different MCP server to import the design,"
+        },
+        {
+          "from": 179.31,
+          "to": 181.91,
+          "content": "iterate, test, and build, agentically,"
+        },
+        {
+          "from": 181.91,
+          "to": 183.83,
+          "content": "a powerful front-end application."
+        },
+        {
+          "from": 183.83,
+          "to": 186.51,
+          "content": "If you're not currently a Cloud Code user,"
+        },
+        {
+          "from": 186.51,
+          "to": 188.75,
+          "content": "I think learning this set of ideas"
+        },
+        {
+          "from": 188.75,
+          "to": 191.19,
+          "content": "will give you a meaningful acceleration"
+        },
+        {
+          "from": 191.19,
+          "to": 193.59,
+          "content": "in the way that we should can engineer systems."
+        },
+        {
+          "from": 193.59,
+          "to": 196.15,
+          "content": "And even if you are a current Cloud Code user,"
+        },
+        {
+          "from": 196.15,
+          "to": 199.35,
+          "content": "I think having Ellie share these best practices with you"
+        },
+        {
+          "from": 199.35,
+          "to": 201.67,
+          "content": "in a comprehensive and systematic way,"
+        },
+        {
+          "from": 201.67,
+          "to": 207.07,
+          "content": "will, I hope, leave you with quite a few new things you try that will be useful for your work."
+        },
+        {
+          "from": 207.07,
+          "to": 212.19,
+          "content": "I'd like to thank from D-Learn.ai, Hara Salami, who had contributed to this course."
+        },
+        {
+          "from": 212.19,
+          "to": 217.67,
+          "content": "In the next video, Ellie will share Code Code's underlying architecture,"
+        },
+        {
+          "from": 217.67,
+          "to": 221.55,
+          "content": "and you might be surprised by how simple the architecture is."
+        },
+        {
+          "from": 221.55,
+          "to": 226.39,
+          "content": "Code Code relies on just a small number of tools to search for patterns within your code files,"
+        },
+        {
+          "from": 226.39,
+          "to": 230.07,
+          "content": "to list directories, look at files, do reggags."
+        },
+        {
+          "from": 230.07,
+          "to": 236.87,
+          "content": "It does not rely on semantically embedding your code in a code base or transforming it into a searchable structure."
+        },
+        {
+          "from": 236.87,
+          "to": 243.51,
+          "content": "And one of the things that I think has made CloudCode effective is how it agentically can read through your code"
+        },
+        {
+          "from": 243.51,
+          "to": 249.51,
+          "content": "to take notes in a file cloud.md to figure out autonomously what is going on in your code base"
+        },
+        {
+          "from": 249.51,
+          "to": 253.11,
+          "content": "to then drive decision making on how to advance your code."
+        },
+        {
+          "from": 253.11,
+          "to": 257.59,
+          "content": "That's right. And because of that and not having a need to index the code base,"
+        },
+        {
+          "from": 257.59,
+          "to": 259.51,
+          "content": "you can ensure the code base stays local."
+        },
+        {
+          "from": 259.51,
+          "to": 262.31,
+          "content": "we'll talk about some of the security ramifications with that."
+        },
+        {
+          "from": 262.31,
+          "to": 264.71,
+          "content": "So let's get started, and I'll see you in the next video."
         }
-      ]
+      ],
+      "source_provider": "local_whisper"
     }
   ],
-  "_ai_subtitle_markdown": "# P1 0-Introduction介绍 中文字幕\n\n- [0.0-55.0] 欢迎回到 Colab、Anthropic 和 Anthropic 的 EdAI 课程。Andrew 回来了，和大家分享实用技巧，讲解如何使用 Claude Code。我非常激动开设这门课程，因为 Claude Code 是我目前最喜欢的编码工具，它让包括我在内的许多其他开发者的生产力大幅提升。这是一个极其强大的工具，我想与 Anthropic 合作，系统地教授如何使用它的最佳实践。感谢 Andrew。很高兴回到这里，就像你提到的，从解释这个工具是什么、它如何工作，一直到如何使用它。与此同时，在过去几年里，AI 辅助编码已经彻底改变了各种工具，包括 Claude Code、MCP 服务器等。\n- [55.0-110.0] 它从人们询问简单问题开始，到获得自动补全，再到各种工具变得越来越自主。当 Claude Code 发布时，在编码助手可以自主完成的程度方面确实是一个飞跃。我认为很多人都惊讶于它可以独立工作几分钟，有时甚至超过几分钟。现在开发者们都在使用它，不仅是一个单一代码实例，而是多个实例并行工作，处理代码库的不同部分。但关于最佳实践，我们仍然缺乏系统的指导。这就是为什么这些最佳实践和使用它们驱动惊人生产力的方法非常重要。\n- [110.0-165.0] Claude Code。那么当我们开始讨论这些最佳实践时，使用 Claude Code 的一个关键技巧是提供清晰的上下文来帮助 Claude Code 完成你想要的任务。这意味着指向相关文件、清楚地描述你想要的功能特性，并确保你正在正确地使用 MCP 服务和该生态系统中的其他工具来扩展 Claude Code 的能力。在本课程中，你将把这些最佳实践应用到三个不同的例子中。我们将从 RAG 章节开始，实现从前端到后端的功能，包括代码重构、编写测试，然后使用 GitHub 集成来处理拉取请求并修复问题。你将使用许多 Claude Code 功能，如规划、思考模式、创建并行任务和管理上下文记忆。对于第二个例子，我们将转换到使用 Jupyter Notebooks 来探索电商数据，并使用 Claude Code 进行数据分析和可视化。\n- [165.0-220.0] 移除重复代码并创建强大的仪表板和 Web 应用程序。最后我们将转向创建一个基于 Figma 的视觉音乐应用，使用 Claude Code 和 Figma MCP 服务器以及不同的 MCP 服务器来导入设计、迭代、测试和构建一个强大的前端应用程序。如果你目前还不是 Claude Code 用户，我认为学习这些理念将为你如何用 AI 辅助工程师开发系统带来显著的加速。即使你已经是当前的 Claude Code 用户，系统地学习这些最佳实践，我相信会让你学到很多可以应用到工作中的新东西。我想感谢 Eli Hasomi，他为这门课程做出了贡献。在下一个视频中，Eli 将分享一个令人惊讶的底层架构。\n- [220.0-275.0] 所有 Claude Code 的架构都依赖于少数几个简单工具：搜索代码文件中的模式、查看文件结构。它不依赖语义嵌入或代码库的向量化，也不将其转换为图结构。我认为 Claude Code 如此有效的原因之一是它如何让 agent 在你的代码中做笔记，通过命令行自动弄清楚代码中发生了什么，从而驱动决策制定来推进你的代码。没错。正因为如此，由于不需要索引代码库，你可以确保代码库保持轻量。我们会讨论一些与此相关的安全问题。那么，让 Eli 开始吧，下一个视频见。",
-  "subtitle_source": "阿里云 ASR"
+  "_ai_subtitle_markdown": "# P1 0-Introduction介绍 中文字幕\n\n- [2.2-5.5] 欢迎来到 Claude Code，高度自主化的编程助手。\n- [5.5-7.4] 这门短期课程是与\n- [7.4-9.5] Anthropic 公司和 Anthropic 节目合作开发的。\n- [9.5-11.2] 他回来了，要与我们分享。\n- [11.2-13.5] 让我们来练习如何使用 Claude Code。\n- [13.5-15.3] 我对这个短期课程真的非常兴奋。\n- [15.3-18.6] Claude Code 是我目前个人最喜欢的编程助手，\n- [18.6-20.6] 它极大地提升了我和\n- [20.6-24.4] 许多其他开发者的生产力。\n- [24.4-27.6] 这是一款非常有深度的工具。\n- [27.6-29.2] 所以我们想和\n- [29.2-32.3] Thrapik 一起教授这个关于如何\n- [32.3-35.7] 系统性地使用它的最重要理念的权威课程。\n- [35.7-37.8] 感谢 Andrew。\n- [38.5-40.5] 我很高兴能回来并开始，\n- [40.5-43.4] 正如你提到的，从解释这个工具是什么，\n- [43.4-46.3] 它如何工作，到如何使用它并行\n- [46.3-48.5] 配合许多不同的工具，包括 Git WorkTrees\n- [48.5-50.1] 和 MCP servers。\n- [50.1-51.8] 回顾过去几年，\n- [51.8-54.9] AI 辅助编程已经快速演进。\n- [54.9-57.4] 它最初可能只是人们偶尔询问\n- [57.4-64.1] 一些编程问题，后来发展到 GitHub 自动补全，再到后来各种变得越来越自主的工具。而 Claude Code 发布时，在\n- [64.1-69.6] 自主程度或编程助手能够独立完成的工作量方面，确实是一个很大的飞跃。\n- [69.6-75.0] 所以我认为很多人会惊讶于你可以设定一个任务让 Claude Code\n- [75.0-79.6] 工作几分钟，有时甚至超过几分钟。现在开发者们\n- [79.6-84.2] 他们在编排的不仅仅是单个 Claude 实例，\n- [84.2-87.4] 而是甚至多个实例并行工作\n- [87.4-89.3] 在代码库的不同部分上。\n- [89.3-91.1] 但协调所有这些的最佳实践\n- [91.1-94.3] 尚未被广泛知晓。\n- [94.3-96.1] 如果你没有按照这些\n- [96.1-98.4] 最佳实践工作，\n- [98.4-100.1] 我认为掌握这些最佳实践\n- [100.1-102.9] 并了解它们如何驱动我见过的许多开发者\n- [102.9-105.2] 使用 Claude Code 实现的惊人生产力，\n- [105.2-107.9] 仍然可以带来很大的提升。\n- [107.9-111.1] 所以当我们开始讨论这些最佳实践时，\n- [111.1-113.6] 使用 Claude Code 的一个关键技巧\n- [113.6-115.9] 是提供清晰的上下文来帮助 Claude Code 高效地\n- [115.9-118.9] 完成你想要的任務。\n- [118.9-120.5] 这意味着指向 Claude Code 到相关文件，\n- [120.5-123.6] 清楚描述你想要的特性和功能，\n- [123.6-126.0] 并确保你正在\n- [126.0-128.0] 正确地使用 MCP servers 和该生态系统中的\n- [128.0-130.6] 其他工具来扩展 Claude\n- [130.6-134.1] Code 的能力。\n- [134.1-136.7] 在这门课程中，你将把这些最佳实践\n- [136.7-138.4] 应用到三个不同的案例中。\n- [138.4-140.3] 我们将从 RAG chatbot 开始，\n- [140.3-142.5] 你将从前端到后端实现这些功能，\n- [142.5-145.9] 包括重构代码、编写测试，\n- [145.9-147.9] 然后使用 GitHub 集成\n- [147.9-150.2] 来处理 pull requests 和修复问题。\n- [150.2-152.5] 你将使用许多 Claude Code 功能，\n- [152.5-155.6] 如规划、思考模式、创建并行会话，\n- [155.6-157.3] 以及管理 Claude 的记忆。\n- [157.3-159.3] 对于第二个案例，我们将换挡\n- [159.3-162.8] 使用 Jupyter Notebooks 来探索电商数据。\n- [162.8-165.2] 我们将使用 Claude Code 重构 Notebooks，\n- [165.2-168.3] 移除冗余代码，并创建强大的仪表板\n- [168.3-169.7] 和 Web 应用。\n- [169.7-172.2] 最后，我们将转向基于 Figma\n- [172.2-176.2] 创建可视化原型，并使用 Claude Code、Figma MCP server，\n- [176.2-179.3] 以及另一个 MCP server 来导入设计，\n- [179.3-181.9] 迭代、测试，并自主地\n- [181.9-183.8] 构建一个强大的前端应用程序。\n- [183.8-186.5] 如果你目前不是 Claude Code 用户，\n- [186.5-188.8] 我认为学习这些理念\n- [188.8-191.2] 将为你的系统工程方式\n- [191.2-193.6] 带来有意义的加速。\n- [193.6-196.2] 即使你是当前的 Claude Code 用户，\n- [196.2-199.3] 我认为让 Ellie 以全面和系统化的方式\n- [199.3-201.7] 与你分享这些最佳实践，\n- [201.7-207.1] 我希望会让你获得一些可以在工作中尝试的新东西。\n- [207.1-212.2] 我要感谢 D-Learn.ai 的 Hara Salami，她为这门课程做出了贡献。\n- [212.2-217.7] 在下一个视频中，Ellie 将分享 Claude Code 的底层架构，\n- [217.7-221.6] 你可能会惊讶于它的架构有多么简单。\n- [221.6-226.4] Claude Code 仅依赖少量工具来搜索代码文件中的模式，\n- [226.4-230.1] 列出目录、查看文件、做正则匹配。\n- [230.1-236.9] 它不依赖于将你的代码语义嵌入或将其转换为可搜索的结构。\n- [236.9-243.5] 我认为使 CloudCode 有效的一件事是它如何自主地阅读你的代码\n- [243.5-249.5] 在 cloud.md 文件中做笔记，自主地弄清楚你的代码库中正在发生什么，\n- [249.5-253.1] 然后驱动关于如何推进你的代码的决策。\n- [253.1-257.6] 没错。正因为如此，而且不需要索引代码库，\n- [257.6-259.5] 你可以确保代码库保持在本地。\n- [259.5-262.3] 我们将讨论一些相关的安全影响。\n- [262.3-264.7] 那么让我们开始吧，下个视频见。",
+  "subtitle_source": "本地 faster-whisper"
 }

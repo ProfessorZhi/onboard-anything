@@ -1,32 +1,17 @@
 {
   "page": 10,
   "title": "10-Conclusion结论",
-  "chapter_title": "总结篇-核心技能与最佳实践",
-  "subtitle_extracted": true,
-  "suitable_subtitle": true,
-  "subtitle_language": "en",
+  "chapter_title": "10-10-Conclusion结论",
+  "subtitle_extracted": false,
+  "suitable_subtitle": false,
+  "subtitle_language": "",
   "subtitle_missing_reason": "",
-  "subtitle_translation_generated": true,
-  "lecture_reconstructed": true,
-  "knowledge_built": true,
-  "exercises_generated": true,
-  "resources_extracted": true,
+  "subtitle_translation_generated": false,
+  "lecture_reconstructed": false,
+  "knowledge_built": false,
+  "exercises_generated": false,
+  "resources_extracted": false,
   "video_downloaded": false,
   "video_path": "",
-  "last_error": "",
-  "_subtitles_payload": [
-    {
-      "lang": "ASR 英文字幕",
-      "lan": "en",
-      "entries": [
-        {
-          "from": 0,
-          "to": 55,
-          "content": "Congratulations, tions, on making it this far. You've learned how to use, use cloud code to explore test revett and debug code basis. You can make the best at the cloud code when you give a clear instructions, clarify the context and pointed to the relevant files in your code base, makes sure to add your code base rules to cloud dm. D, and any information that you have d like cloud code to remember about your project, consider extending cloud code capabilities and connecting IT to MCP services like played ID and figure a. Thank you for joining me on this jnet. I can't wait to see what you'll build with cog code."
-        }
-      ]
-    }
-  ],
-  "_ai_subtitle_markdown": "# P10 10-Conclusion结论 中文字幕\n\n- [0.0-55.0] 恭喜大家，成功学到了这里。你们已经学会了如何使用 Claude Code 来探索、测试、重构和调试代码库。当你们给出清晰的指令、提供明确的上下文，并指向代码库中的相关文件时，能够发挥 Claude Code 的最佳效果。务必将你们的代码库规范添加到 Claude Code MD 配置中，同时也可以添加任何你们希望 Claude Code 记住的关于项目的信息。还可以考虑扩展 Claude Code 的功能，并将其连接到 MCP 服务（如 Playwright 和 Figma）。感谢大家加入我的课程。我迫不及待想看到你们用 Claude Code 构建出的作品。",
-  "subtitle_source": "阿里云 ASR"
+  "last_error": ""
 }

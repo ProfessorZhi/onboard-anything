@@ -1,107 +1,17 @@
 {
   "page": 3,
   "title": "3-设置和代码库理解",
-  "chapter_title": "基础篇-环境配置与代码库探索",
-  "subtitle_extracted": true,
-  "suitable_subtitle": true,
-  "subtitle_language": "en",
+  "chapter_title": "3-3-设置和代码库理解",
+  "subtitle_extracted": false,
+  "suitable_subtitle": false,
+  "subtitle_language": "",
   "subtitle_missing_reason": "",
-  "subtitle_translation_generated": true,
-  "lecture_reconstructed": true,
-  "knowledge_built": true,
-  "exercises_generated": true,
-  "resources_extracted": true,
+  "subtitle_translation_generated": false,
+  "lecture_reconstructed": false,
+  "knowledge_built": false,
+  "exercises_generated": false,
+  "resources_extracted": false,
   "video_downloaded": false,
   "video_path": "",
-  "last_error": "",
-  "_subtitles_payload": [
-    {
-      "lang": "ASR 英文字幕",
-      "lan": "en",
-      "entries": [
-        {
-          "from": 0,
-          "to": 55,
-          "content": "The first example will work on is an end to m rag chapt. Let's use use cloud code to explore the code base before we start using cloud code to read lots of code for u. Let's talk about how we can use this tool to get up to speed on larger code basis. Right here, I have an application where I can chat with cloud about course materials from deep learning ai. So let's try asking an outline, of course, for example, what is the outline of the M. CP build rich context, AI apps with the thropp. We'll see here that i'll get a response with quite a bit of detail around the lessons and descriptions for each of those lessons. With that mind. Let's see how we can get up this feed on the underlying code that powers this application back in the s. Code. I have the terminal open here, and i'm going to hoop into cloud code just by typing in cloud and pressing enter."
-        },
-        {
-          "from": 55,
-          "to": 110,
-          "content": "In this application, I can start chatting with Michael base S, O. I'm going to start with a high level question just to give me an overview of the code base. What we're going to to see cloud code duis agenticity search over the code base, figure out some of the most important files and give me a description of what's happening in this application instead of searching through each individual file, we're going to a agenticity search and find the most relevant once S. O. Here, we're going to get some information about the architecture, the key components, some of the features. And now if there are particular things I wanted digit, I can easily do o, that. I can also ask other higher level questions. Like how are these documents process sin this application? We're using retrieval augmented generation to fetch information about bees courses. If I want to get more information about that process, I can ask a question like this one."
-        },
-        {
-          "from": 110,
-          "to": 165,
-          "content": "We'd like to say that cloud code is a fantastic engineer along side you, but it's an even better explainer SO. As you're getting up dispute with new code basis with new datasets. First, start using cloud code as a way to explain things to you S, O, that when you ask it to a ray code, you can have a better understanding of what's going on. Here. We can see the sources in the code base that are actually split, lit text into chunks that are adding lesson context and that are storing course method ata. This ability to quickly get up to speed with a code base, especially when you might not be familiar with the underlying technology or language is exceptionally valuable instead of navigating to each of these folders ers and figuring out what's going on. We can ask more specific questions and even get diagrams and disulfide made for us. S. O. The first thing all as cloud is to trace the process of handle."
-        },
-        {
-          "from": 165,
-          "to": 220,
-          "content": "In a users query from front end to backend, you can imagine you might have some limited knowledge. And one of the parts of the stack or you're not familiar with how this is all happening. So o cd code is going to give U. S quite some useful information here. What's useful when you're seeing cloud code work, is ITA ability to give you a bit of a to DO list SO, you can start to understand what's happening at any point in time. You can press the escape and guide cloud code to follow a different set of to duce. But in this case, I feel pretty good about what it's doing going to start tracing from the front and start following api and points analyze our retrieval augmented generation system and then figure out how to actually generate the response is reading the appropriate files that are handled in these particular task and finishing up IT list to give us a powerful summary as we're in."
-        },
-        {
-          "from": 220,
-          "to": 275,
-          "content": "In this environment, we can stay with in vs code or open up cloud code and its own dedicated terminal instance. That's completely up to you as you're working in this application. Once it's done, we can see a very detailed path for what's happening here. Not only can I read each of these step by step, I can even ask cloud to write this to a file, but I seeing in quite a bit of detail what's happening on the front end with some jaskett. What happens once that reaches my back and what the retrieve augmented generation system is doing, how I generating a response. Finally, how and searching through my vector database, how many filtering, what's necessary, getting a response back, and then finally, sending that to the user. There's a lot that's s going on in this application. And I can use, clad to dive deeper into any of those pieces. But let's just say, I learned best from visualizations SO. Let's ask cd to draw a diagram."
-        },
-        {
-          "from": 275,
-          "to": 330,
-          "content": "That illustrate this flow, we can ask cloud, draw diagrams for web visualizations. We can ask for, ask DR, but let's see what cloud comes up with, with its own intelligence and knowledge of how the application works. SO, let's see what cloud code has come up with. We've got a really nice diagram here showing us the step by step process S, O. We can create these visual diagrams. We could always ask IT to use something like d three J, S, or recharge if we want something like a web application, but we can see right here. We've got a really nice diagram from the front end, making a request to the back and calling the necessary functions, generating the response necessary if there's any history involved talking directly to the large language model with our system proms and our tools and a quire figuring out where to go next. Searching through our vector database using croma D. B. Getting back results."
-        },
-        {
-          "from": 330,
-          "to": 385,
-          "content": "Formatting that sending it to the model to produce a final response. There's quite a bit of detail that goes into this. And if we want, we can even argument code with additional tools for generating the visualizations that we want, but add the box just getting this information quickly and efficiently is going to help U. S. Get up to speed with this code base in a fraction of time that we used to speed S. O. With that in mind, let's ask a very simple question. How do OI run this application? You might be in the situation where there's a new technology here, a new idea. Very simply. It's nice to just know how to get up in run. I can see here my AP, I documentation, my webb interface. And if there are any environment arabes, S, I need a good to go. Now. You've an idea of ve had to just start talking to cloud code. Let's talk a little bit about some of the more powerful features with cloud code. When you start working with an application. And."
-        },
-        {
-          "from": 385,
-          "to": 440,
-          "content": "Code. One of the first things we recommend you, D, O, is run a command called slash, and IT. You can see here in cloud code when I have the slash, we have a list of many built in commons that I can use slash. And IT allows me to initialize a cd MD file with the code base documentation, the class MD file is mission critical for introducing memory for cloud code S, O, that IT knows how best to work in your code base. The cloud MD file is very useful for specifying how you want things to be run. This could be your tests, this could be your linking. And any long term memory that you want cloud to have each time you are working with cloud code for this particular project instead of making this from scratch, flash h. And it is going to analyze the code base to figure out at a high level. What IT should know about each time you are working with this application, there are three different code."
-        },
-        {
-          "from": 440,
-          "to": 495,
-          "content": "Md files that you can make like the one generated with flash, and IT all the way here on the left, this cloud MD file lives in your application. You can have many of them in nested subvocals, but this is shared with other engineers and committed, dear version control. Another option is, if you have personal instructions and customizations things specific for your editing and environment and terminal environment, you can put that in and called out local dot MD file. This is get ignored and not shared with other engineers. Finally, in your home directory in the dog cloud, further, you can add a cloud MD, and you can think of this like a global cloud MD for all projects on your machine. This is helpful if you want cloud to follow instructions across a wide range of projects that you build with cloud code."
-        },
-        {
-          "from": 495,
-          "to": 550,
-          "content": "We can go ahead and allow cloud code to find different files. S, O, that IT knows how best to create this cloud. MD file, this cloud MD file is meant to be added to your current get project and shared with other team members as more individuals work on the code base they can add to this cloud MD file, and you can even nest cloud MD files in subdirectory if you need more specific instructions for things like the back end or front end. Or our docks that we have here. What's really nice about using the tool like cloud code with visual studio code. Is that, as I see changes to files, I can see those visually in my editor. And any time that I am using a tool in cloud code, it's going to ask me for permissions. This mission critical human in the loop is really important when you get up in running, and if you don't need cloud, ask you every."
-        },
-        {
-          "from": 550,
-          "to": 605,
-          "content": "Single time can always use the second option. We'll go ahead and auto to accept those edits, and we'll see that a cd MD file has been created for U. S. To give you a quick walk, walk, though we can see it given us a project overview, key technologies and architectural overview and a nice little diagram here. Some core components and much more if we want things to change to this particular cloud MD, we can easily DO, SO. As IT continues searching the code base, IT makes additional edits here to my cloud M, D, and gives me a summary of what's been done when you using a tool like a loud code in the s code. I have the ability to specify which file I in and even get information about particular lines to set this up. I'm going to use the flash I, D. E command, I can see right here. I'm connected with visual studio code now that i'm in visual studio code. We can see right here that the second that I visit a file is."
-        },
-        {
-          "from": 605,
-          "to": 660,
-          "content": "Right here for what's going on. This gives cloud code, the right context for which file I in. And if there are questions I have about that file, IT makes it easier for cloud code to identify that I ever want to make any changes to my cd MD file. I can manually write up if i'd like, or I can use a handy command to go ahead and use this panky and directly add to memory S, O. I'm just going to say here, always use UV to run the server. DO not use pip directly. This is a package manager in the python eco system, and I want to make sure the cloud doesn't get confused when I use the short cut. We can see there are different places where this memory can be saved. We mentioned there is the project memory that is included in git for everyone on your team to use. We have a local memory that is good, ignored, but just useful for you as the development and then user memory that is applicable to all projects you use with clock code for this one."
-        },
-        {
-          "from": 660,
-          "to": 715,
-          "content": "I'll just go ahead and update the project memory. I can see here. I've made that change. And if I look in my cloud MD, i'll see right here. I have some mention ons to using UV to make sure that i'm doing that correctly if I want to be more specific, I can also say, make sure to use UV to manage all dependencies. I'll at this to my cloud emd, and we'll see right here, but it's it's been added. If I take a quick look at this particular file, we can see any mention of dependencies. Now includes U. V. We spoke a little bit about some of the commands that are built into cloud code like flash. And IT. There are a couple other useful ones that I want to show case here, and in fact, are going, going to see the later on this course, we can even make our own one of the first ones. I want to walk you through is flash help."
-        },
-        {
-          "from": 715,
-          "to": 770,
-          "content": "This shows me right off the bat, a quick description of all the commands, and a quick summary. This is useful as you're getting up to speed with cloud code. The next one I want to show case is a command called slash, clear what this allows you to do is clear the conversation history and start from scratch. This is very helpful as you shift years and build new features. This allows you to clear the context window and start fresh if you want to continue the conversation, have a smaller context window, but still have a summary y of what's been done. We also have this command compact that allows you to clear the history, but keep a summary S, O that you can build off with class, having an idea of what was done before. One more useful command is the escape at key that allows you to get out of whatever command you're in S. O. If I am going and trying to do o something like compact, and I want to stop that process, I can always press."
-        },
-        {
-          "from": 770,
-          "to": 825,
-          "content": "Escape, if I start a process with code, code to explain what is in the code base, I want to stop that process. Escape will allow me to interrupt and continue on words. S, O, don't feel like you have to wait for cloud code if you're not getting what you need in the next lesson will will start using cloud code to build features, add to files, modify changes and make sure we're doing the right thing along the way before we hop off one last useful piece with cloud code is IT ability to work with ITS. O. I'd ve made some small changes to this application, and I want to add and commit these changes instead of me, manually have to write it the good commands, write a descriptive of commitment ssa's. We're going to actually have clod code D, O, that work for us. And what's really nice is cloud code ability to add and commit t the necessary comments. I'll go ahead and add this particular file of not only commit, but you can see here, i've got this really nice descriptive commit message that's."
-        },
-        {
-          "from": 825,
-          "to": 880,
-          "content": "Credibly useful as we start asking clock code about historical changes with good and only pushes to get up. And other people are reading the changes we make, s weady commit. And the next lesson, we've clod code to start writing lots of things for us."
-        }
-      ]
-    }
-  ],
-  "_ai_subtitle_markdown": "# P3 3-设置和代码库理解 中文字幕\n\n- [0.0-55.0] 第一个要做的例子是一个端到端的RAG应用。让我们先用Claude Code来探索代码库，再开始用它来读取大量代码。我们来聊聊如何用这个工具来快速上手更大的代码库。这里，我有一个可以与Claude聊DeepLearning.AI课程资料的应用。所以让我们试着问一个课程大纲，比如MCP构建丰富上下文AI应用课程的大纲是什么。我们会看到它会返回一个相当详细的响应，包含每节课的课程描述和介绍。有了这个铺垫，让我们看看如何了解支撑这个应用的后端代码。回到VS Code。我在这里打开了终端，我只要输入claude然后按回车就可以进入Claude Code了。\n- [55.0-110.0] 在这个应用中，我可以开始与向量数据库进行对话了。我会从一个高层次的问题开始，以便了解代码库的概况。我们会看到Claude Code进行智能搜索遍历代码库，找出一些最重要的文件，并给我描述这个应用中发生了什么，而不是逐个文件搜索，我们会进行智能搜索找到最相关的文件。这样，我们就能获得关于架构、关键组件和一些功能的信息。现在如果我想深入了解特定的东西，我可以轻松做到。我也可以问其他高层次的问题，比如这些文档是如何在这个应用中处理的？我们使用检索增强生成（Retrieval Augmented Generation）来获取有关课程的信息。如果我想获取更多关于那个过程的信息，我可以问这样的问题。\n- [110.0-165.0] 我们可以说Claude Code是一位出色的工程师，但它是更好的解释者。所以当你在新的代码库和新的数据集上起步时，首先开始使用Claude Code作为向你解释事物的方式，这样当你让它编写代码时，你能更好地理解正在发生的事情。这里我们可以看到代码库中的源文件实际上是将纯文本分割成块，添加课程上下文，并存储课程数据。这种快速熟悉代码库的能力，尤其是当你可能不熟悉底层技术或语言时，是非常有价值的。与其导航到每个文件夹并弄清楚发生了什么，我们可以问更具体的问题，甚至获得为我们生成的图表。所以第一步是让Claude Code跟踪处理流程。\n- [165.0-220.0] 用户从前端到后端的查询处理过程，你可以想象你可能对堆栈的某些部分了解有限，或者你不熟悉这一切是如何发生的。Claude Code会给你一些非常有用的信息。当你在看Claude Code工作时，它的待办事项列表能力非常有用，这样你就可以在任何时候开始理解正在发生的事情。你可以按Escape键引导Claude Code按照不同的待办事项列表。但在这种情况下，我对它正在做的事情感觉很好，打算从前端开始追踪，分析API端点的检索增强生成系统，然后找出如何实际生成响应。它正在读取这些特定任务处理的相关文件，并完成了它的待办事项列表，给我们一个有力的总结。\n- [220.0-275.0] 在这个环境中，我们可以留在VS Code中，或者打开Claude Code自带的独立终端实例，这完全取决于你。一旦完成，我们可以看到一个非常详细的路径，告诉我们这里发生了什么。我不仅能逐步阅读每一步，我甚至可以要求Claude把这个写入一个文件，但我看到了相当多的细节，关于前端使用Next.js发生了什么。一旦这到达后端，检索增强生成系统正在做什么，我们如何生成响应。最后，搜索向量数据库的过程，过滤的必要性，获取响应，然后最终发送给用户。这个应用涉及很多方面。我可以用Claude深入研究任何这些部分。但让我们假设，我从小就从可视化中学习得最好。所以让我们要求Claude画一个图表。\n- [275.0-330.0] 说明这个流程，我们可以要求Claude画图表用于Web可视化，我们可以要求它使用D3.js或者React，如果我们想要类似Web应用的东西，但我们可以看到这里。我们从Claude这里得到了一个非常好的图表，展示了逐步过程。所以我们可以创建这些可视化图表，我们总是可以要求它使用D3.js或者React，如果我们想要类似Web应用的东西，但我们可以看到这里。我们从Claude这里得到了一个非常好的图表，展示了逐步过程。我们可以创建这些可视化图表，我们总是可以要求它使用D3.js或者React，如果我们想要类似Web应用的东西，但我们可以看到这里。我们从Claude这里得到了一个非常好的图表，展示了逐步过程。我们可以创建这些可视化图表。\n- [275.0-330.0] 我们可以要求Claude画图表来说明这个流程。我们可以要求它用D3.js或React等工具创建Web可视化图表。让我看看Claude用自己的智能和对应用工作方式的理解能得出什么。看看Claude Code生成了什么。我们这里有一个非常好的图表，向我们展示了逐步过程。我们可以创建这些可视化图表，我们总是可以要求它使用D3.js或React等工具来制作Web应用。我们可以看到这里有一个非常好的图表，从前端向后端发出请求，调用必要的函数，生成响应。如果有历史记录，直接与大语言模型对话，使用我们的系统提示和工具，确定下一步去哪里。使用ChromaDB搜索我们的向量数据库，获取结果。\n- [330.0-385.0] 格式化后发送给模型以产生最终响应。这需要相当多的细节。如果我们愿意，我们甚至可以添加额外的工具来生成我们想要的代码可视化。但能够快速高效地获取这些信息将帮助我们在比以前少得多的时间内熟悉这个代码库。鉴于此，让我们问一个非常简单的问题。我如何运行这个应用？你可能处于这样的情况，有一个新的技术，一个新的想法。很简单，知道如何启动和运行就好了。我可以看到这里有我的API文档，我的Web界面。如果有任何环境变量需要设置，我已经可以开始了。现在你已经知道如何开始与Claude Code对话了。让我们谈谈一些更强大的功能，Claude Code。当你开始处理一个应用程序时。\n- [385.0-440.0] Code。Claude Code推荐你做的第一件事是运行一个叫做/init的命令。你可以看到在Claude Code中，当我输入斜杠时，我们有一个内置命令列表。/init允许我用代码库文档初始化一个CLAUDE.md文件。CLAUDE.md文件对于为Claude Code引入记忆至关重要，这样它就知道如何最好地在你的代码库中工作。CLAUDE.md文件对于指定你想要如何运行东西非常有用。这可能是你的测试，这可能是你的链接，以及你希望Claude每次在这个特定项目中使用Claude Code时拥有的任何长期记忆。不用从头创建这个，/init会分析代码库，找出每次你使用这个应用程序时它应该了解的高层次信息。有三种不同的CLAUDE.md文件你可以创建，就像用/init生成的那个一样。\n- [440.0-495.0] 这个CLAUDE.md文件位于你的应用程序中。你可以有很多个，嵌套在子目录中，但这是与其他工程师共享并提交到版本控制的。另一个选择是，如果你有个人说明和自定义内容，针对你的编辑环境和终端环境，你可以把它放在一个叫做CLAUDE.local.md的文件中。这会被Git忽略，不会与其他工程师共享。最后，在你的主目录中的.claude文件夹中，你可以添加一个CLAUDE.md文件，你可以把它想象成你机器上所有项目的全局CLAUDE.md。这很有帮助，如果你希望Claude遵循跨多个项目的指令。\n- [495.0-550.0] 我们可以继续让Claude Code找到不同的文件，这样它就知道如何最好地创建这个CLAUDE.md文件。这个CLAUDE.md文件旨在添加到你当前的Git项目中，与其他团队成员共享。随着更多人在代码库上工作，他们可以添加到CLAUDE.md文件中，如果需要对后端或前端有更具体的说明，你甚至可以在子目录中嵌套CLAUDE.md文件。对于我们的文档也很适用。使用像VS Code中的Claude Code这样的工具真的很好，因为我可以看到文件的变化，我可以直观地看到那些在我的编辑器中。每当我使用Claude Code中的一个工具时，它都会请求我的许可。当你启动和运行时，这种人机交互真的很重要。\n- [550.0-605.0] 如果你不需要Claude每次都问你，你可以使用第二个选项。我们可以自动接受这些编辑，我们会看到已经为你创建了一个CLAUDE.md文件。给你一个快速演示，我们可以看到它给了我们项目概述，关键技术和架构概述，这里还有一个小图表。一些核心组件等等。如果我们想更改这个特定的CLAUDE.md，我们可以轻松做到。当它继续搜索代码库时，它会在这里对我的CLAUDE.md进行额外的编辑，并给我一个已经完成的事情的摘要。当你在VS Code中使用像Claude Code这样的工具时，我有能力指定我在哪个文件，甚至可以获取关于特定行的信息来设置这个。我将使用flash IDE命令，我可以看到就在这里。我现在与Visual Studio Code连接了。\n- [605.0-660.0] 现在我在Visual Studio Code中，我们可以在这里看到，一旦我访问一个文件，就会发生这种情况。这给了Claude Code关于我在哪个文件的正确上下文。如果我有关于那个文件的问题，它使Claude Code更容易识别。如果我曾经想对我的CLAUDE.md文件做任何更改，我可以手动写，如果我愿意，或者我可以使用一个方便的命令来继续使用这个命令直接添加到记忆中。所以我在这里说，总是使用UV来运行服务器。不要直接使用pip。这是Python生态系统中的一个包管理器，我想确保Claude不会在我使用快捷方式时感到困惑。我们可以看到这个记忆可以保存在不同的地方。我们提到有包含在Git中供团队每个人使用的项目记忆。还有本地记忆，被Git忽略，但只对你作为开发者有用。然后还有用户记忆，适用于你使用Claude Code的所有项目。对于这个项目。\n- [660.0-715.0] 我将更新项目记忆。我可以看到我做了那个更改。如果我看我的CLAUDE.md文件，我会在这里看到。我有一些关于使用UV的提及，以确保我正确地做这件事。如果我想更具体，我也可以说，确保使用UV管理所有依赖项。我把这个添加到我的CLAUDE.md，我们会看到在这里，但它已经被添加了。如果我快速看一下这个特定的文件，我们可以看到任何关于依赖项的提及现在都包括UV。我们聊了一些关于Claude Code内置的命令，如/init。还有其他几个有用的我想在这里展示，实际上我们会在本课程的后面看到。我们甚至可以创建我们自己的。第一个我想向你展示的是/。\n- [715.0-770.0] 这向我展示了一开始所有命令的快速描述和快速总结。这在你开始使用Claude Code时非常有用。下一个我想展示的是一个叫做/clear的命令。这允许你清除对话历史并从头开始。当你在不同年份之间切换和构建新功能时，这非常有用。这允许你清除上下文窗口并重新开始。如果你想继续对话，有一个更小的上下文窗口，但仍然有之前所做事情的摘要。我们也有这个/compact命令，允许你清除历史，但保留一个摘要，这样你可以在之前所做的基础上继续构建。还有一个有用的命令是Escape键，允许你退出你正在执行的任何命令。所以如果我正在执行类似/compact的东西，我想停止那个过程，我总是可以按Escape。\n- [770.0-825.0] 如果我开始一个用Claude Code解释代码库的过程，我想停止那个过程，Escape将允许我中断并继续前进。所以不要觉得如果Claude Code没有给你需要的东西，你必须等待它。在下一课中，我们将开始使用Claude Code来构建功能，添加到文件，修改更改，并确保我们在过程中做正确的事情。在我们结束之前，Claude Code最后一个有用的功能是它与Git合作的能力。我对这个应用程序做了一些小的更改，我想添加并提交这些更改。不用我手动写Git命令和描述性提交消息，我们将让Claude Code为我们做这项工作。真正好的是Claude Code添加和提交必要注释的能力。我将添加这个特定的文件，不仅提交，而且你可以看到我得到了这个非常好的描述性提交消息。\n- [825.0-880.0] 当我们开始询问Claude Code关于Git历史更改时，这是令人难以置信的有用，使用Git log和Git diff来了解我们做了什么，好的提交消息，并且人们正在阅读我们所做的更改，这样我们就可以提交了。在下一课中，我们将让Claude Code开始为我们写很多东西。",
-  "subtitle_source": "阿里云 ASR"
+  "last_error": ""
 }

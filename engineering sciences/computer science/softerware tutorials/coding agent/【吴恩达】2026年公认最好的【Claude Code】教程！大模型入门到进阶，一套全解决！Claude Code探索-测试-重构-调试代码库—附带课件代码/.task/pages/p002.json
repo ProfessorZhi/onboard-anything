@@ -1,72 +1,17 @@
 {
   "page": 2,
   "title": "1-什么是Claude Code？",
-  "chapter_title": "基础篇-Claude Code核心概念",
-  "subtitle_extracted": true,
-  "suitable_subtitle": true,
-  "subtitle_language": "en",
+  "chapter_title": "2-1-什么是Claude Code？",
+  "subtitle_extracted": false,
+  "suitable_subtitle": false,
+  "subtitle_language": "",
   "subtitle_missing_reason": "",
-  "subtitle_translation_generated": true,
-  "lecture_reconstructed": true,
-  "knowledge_built": true,
-  "exercises_generated": true,
-  "resources_extracted": true,
+  "subtitle_translation_generated": false,
+  "lecture_reconstructed": false,
+  "knowledge_built": false,
+  "exercises_generated": false,
+  "resources_extracted": false,
   "video_downloaded": false,
   "video_path": "",
-  "last_error": "",
-  "_subtitles_payload": [
-    {
-      "lang": "ASR 英文字幕",
-      "lan": "en",
-      "entries": [
-        {
-          "from": 0,
-          "to": 55,
-          "content": "In this first lesson will go through the agents workflow of cd code, the tools that uses to navigate your cobs and the memory it keeps across sessions. Let's divin S, O, let's talk a little bit about what cloud code actually is when we talk about agenticity stems, we think a lot about a model, a set of tools and some environment to run those tools. Models are great at handling input and returning output, but in many situations, those models don't know about her code base, had a fine files and had a handle multiple tasks. S, O, instead of just talking directly to a model, we're going to provide a very late twist harness for that model. And through the commander, we're going to use that harness to leverage the models intelligence to perform complex coding tasks. So o instead of giving a."
-        },
-        {
-          "from": 55,
-          "to": 110,
-          "content": "Task directly to the model and trying to find all kinds of information in a code base, we're going to provide a set of tools. We're going to provide an environment and a couple other pieces of functionality to enable the model to come through code basis and solve much more complex problems. Who are those pieces of functionality that we're talking about here, enabling the model to have memory, enabling our model here to remember preferences of the user and the code base we're going through or the task hands. We're also going to give the model and environment where I can figure out what data IT means, formulated a plan and then take action with just a small amount of code we can leverage the models intelligence to achieve quite remarkable results with class code. Your options are ops or soni, depending on the complexity, the kind of task care handlin."
-        },
-        {
-          "from": 110,
-          "to": 165,
-          "content": "And you're subscription when we talk about what code code can do o it's very tempting to just think this is the tool for writing lots of code. But as we progress in this course or actually going to start with one of the most powerful features of cloud code, which is its ability to discover, explain and design before you start writing code with cd code, use IT as a way to get up to speed on a code base. We'll talk quite a bit about writing code with cloud code, but we'll talk about ways in which you can use IT outside of the terminal and environments like good hub will will talk a bit about revett ing debugging errors and where this tool, really sns. Not only is this useful for coding, but also across the data analysis and any environment where the models intelligence can create compelling visualizations assets or deliverables for you t."
-        },
-        {
-          "from": 165,
-          "to": 220,
-          "content": "We mentioned that we give the model a harness. We give the model and environment to gather context and take an action. We talked a bit about the memory that we provide to the model and in a little bit will will talk about what that underlying memory looks like. Now let's talk about the tools or additional functionality that we let the model know about to give an allus tion of tools. You can imagine that the user asks what code is written in a particular file. The model does not know, had an navigate or find files and that or tool use comes into play out of the box. Cloud code provides a relatively small list of tools. One of those being the ability to read a file now that the model knows what to do o can go ahead and read that file, get the contents of that file and return the data to a user. This ability of tools allows the model to go from a simple assistant to an extremely sophisticated."
-        },
-        {
-          "from": 220,
-          "to": 275,
-          "content": "Hey, jane, tool mention some of the tools that cd code comes built in with he is AA list of the tools that we have, some of those for editing across different kinds of files. Some of those for reading across different files and some for doing additional actions like finding patterns, searching things across the web and even creating or running subagent to handle very difficult and challenging tasks. Finally, since we're in the command line, we're going to need a tool that execute, bash or shell comments. Tools is what allows cloud code together, the context and information that IT needs. This allows cloud code to tackle harder problems. IT also allows code code to not have to index your entire code base and lead into potential security concerns. Finally, code code is quite extensible, while you just saw the list of tools that code code comes built in with."
-        },
-        {
-          "from": 275,
-          "to": 330,
-          "content": "You can also add additional tools by connecting to mcp services, M, CP or the model context perticler, an open source model, ignostic proto al, that allows for data and ai systems to communicate easily. These mcp servers can add functionality to cloud code for a variety of different tasks, and will will explore a few of them over this course. I want to take a little more time to talk about what we mean by not indexing a code base instead of creating a structured representation of the code base and constantly analyzing that code. Code instead uses a feature called agented search instead of requiring that, that code base is sent to a server and potentially leaving the eco system that iron cloud code instead uses one or many different agents and sets of tools to find what it's looking for in your code days."
-        },
-        {
-          "from": 330,
-          "to": 385,
-          "content": "This allows your code to not have to be completely added to context or to have to leave at the eco system that is in which can create certain security considerations. We talk about the memory of cloud or its ability to remember what has happened in previous conversations or across all kinds of actions. This is done using hamari down file called the cloud dot MD. In your cloud MD file. You can define common configurations or style guidelines. These files get automatically load into context when launched the conversation that you have with cloud code is store the locally on your machine. You can clear that over the course of a conversation, S, O, you can start with a new context window. But if for some reason, you need to continue that previous one or resume the earlier conversation, you can do OS, O easily. I'm going to head over."
-        },
-        {
-          "from": 385,
-          "to": 440,
-          "content": "To the terminal that I have inside of VS code, and we can see I have a folder hair called demo with nothing in IT, S. O. Let's start by opening up cloud code using the cloud command, depending on where this file is, and especially the first time IT may ask if I trust the files in this fder, which IDO, we've got a couple nice tips here for getting started, but i'm just going to start with a very simple prompt, make a cool. The realization for me. I just getting started. What we're going to see here is cloud code start to make AD list of actions to take. You can imagine this task may be to search a across the code base to edit files, to write task, to deliver insights or an arcs to create a visualization, depending on how caught is feeling. This might be particles or fireworks are something else, but I just want to show you how quickly either the box you can start to see changes with cloud code since we're doing this inside of visual studio code."
-        },
-        {
-          "from": 440,
-          "to": 495,
-          "content": "And cloud code has an integration with that editor. We're going to see visually the changes that are being made accept those. And in future additions, all that cloud code D, O, that without requesting permission from me, we can see here, we have a visual ization, and that is built. Let's go ahead and open it in the brothers are a cloud code to D, O. That for me, IT will confirm this is the command. Let's go see what IT looks like. And here we are with our visualization can not some particles. Les s, look at it. It better. Can tog go the animation, see what's go on and clear what we have here. We can expand on this as much as we want. We can change the functionality. We can add whatever we want right here, but I just want to show you add of the box have seen, as IT, is to get up in running with this particular tool. And the next lesson whole, explore how to use cloud code across a larger code base and take us that back and see just how powerful IT is for explaining larger and more complex code base."
-        }
-      ]
-    }
-  ],
-  "_ai_subtitle_markdown": "# P2 1-什么是Claude Code？ 中文字幕\n\n- [0.0-55.0] 在这第一课中，我们将了解 Claude Code 的智能代理工作流程，它用来浏览代码库的工具，以及它在会话之间保持的记忆功能。让我们深入探讨一下，先聊聊 Claude Code 实际上是什么。当我们谈论智能代理（agentic）时，我们会想到一个模型、一组工具和一些运行这些工具的环境。模型很擅长处理输入和返回输出，但在很多情况下，这些模型并不了解你的代码库，不知道有哪些文件，也不知道如何处理多个任务。所以，我们不是直接与模型对话，而是要为这个模型提供一个非常巧妙的工具链（harness）。通过这个工具链，我们将利用模型的智能来执行复杂的编码任务。\n- [55.0-110.0] 我们不是直接给模型一个任务，让它在代码库中寻找各种信息，而是要提供一组工具。我们会提供一个环境和其他一些功能组件，让模型能够浏览代码库并解决更复杂的问题。我们所说的这些功能组件包括：让模型拥有记忆能力，让模型记住用户的偏好以及我们正在浏览的代码库或任务状态。我们还会给模型一个环境，让它能够理解数据、制定计划，然后采取行动。只需要少量的代码，我们就能利用模型的智能取得相当显著的成果。使用 Claude Code，你可以通过 CLI（命令行界面）或 Sonar 两种方式操作，取决于任务的复杂性、类型以及你的订阅计划。\n- [110.0-165.0] 当我们讨论 Claude Code 能做什么时，很容易认为这只是用来写大量代码的工具。但随着我们深入这门课程，我们实际上会从一个 Claude Code 最强大的功能开始，那就是在编写代码之前发现（discover）、解释（explain）和设计（design）的能力。使用 Claude Code 作为一种快速了解代码库的方式。我们会大量讨论用 Claude Code 写代码，但也会讨论在终端之外以及 GitHub 等环境中使用它的方法。我们还会讨论错误调试以及这个工具真正发光发热的地方。它不仅对编程有用，还能应用于数据分析以及任何模型智能可以创建有说服力的可视化、资源或交付成果的环境。\n- [165.0-220.0] 我们提到过，我们给模型一个工具链，给模型一个收集上下文并采取行动的环境。我们也讨论过我们提供给模型的记忆功能，接下来我们会深入了解底层记忆是什么样的。现在让我们谈谈工具，或者说我们让模型知道的附加功能。为了说明工具的作用，你可以想象用户问某个特定文件是用什么代码写的。模型不知道如何导航或查找文件，这时工具就派上用场了。开箱即用，Claude Code 提供了一个相对较小的工具列表。其中之一就是读取文件的能力。现在模型知道该做什么了，可以读取那个文件，获取文件内容并返回给用户。这种工具能力让模型从一个简单的助手变成了一个极其复杂的智能代理。\n- [220.0-275.0] 嘿，简，工具提一下 Claude Code 内置的一些工具。这是一个工具列表，包括用于编辑不同类型文件、读取不同文件以及执行额外操作的工具，比如查找模式、在网上搜索，甚至创建或运行子代理（subagent）来处理非常困难和复杂的任务。最后，因为我们在命令行中，所以我们需要一个执行 bash 或 shell 命令的工具。工具让 Claude Code 能够获取它需要的上下文和信息，这让 Claude Code 能够处理更难的问题。这也意味着 Claude Code 不必索引整个代码库，从而避免潜在的安全问题。最后，Claude Code 是高度可扩展的，虽然你刚才看到的是 Claude Code 内置的工具列表。\n- [275.0-330.0] 你还可以通过连接 MCP 服务添加额外的工具。MCP 即 Model Context Protocol（模型上下文协议），是一个开源的、模型无关的协议，允许数据和 AI 系统之间轻松通信。这些 MCP 服务器可以为 Claude Code 添加各种任务的功能，我们在这门课程中会探索其中一些。我想多花点时间谈谈我们所说的\"不索引代码库\"是什么意思。与其创建代码库的结构化表示并不断分析代码不同，Claude Code 使用一种叫做智能搜索（Agentic Search）的功能。与其要求代码库被发送到服务器并可能离开 Claude Code 的生态系统不同，Claude Code 使用一个或多个不同的代理和工具集来在代码库中寻找它需要的东西。\n- [330.0-385.0] 这让你的代码不必完全添加到上下文中，也不必离开 Claude Code 所在的生态系统，这可以避免某些安全考虑。我们谈谈 Claude Code 的记忆功能，即它记住之前对话中发生的事情或各种操作的能力。这是通过一个叫做 CLAUDE.md 的文件实现的。在你的 CLAUDE.md 文件中，你可以定义通用配置或样式指南。这些文件在启动 Claude Code 会话时会自动加载到上下文中。你与 Claude Code 的对话内容存储在本地机器上。你可以随时清除它，重新开始一个新的上下文窗口。但如果出于某种原因你需要继续之前的对话或恢复之前的会话，你也可以轻松做到。\n- [385.0-440.0] 我现在转到我在 VS Code 中的终端，我们可以看到这里有一个叫做 demo 的文件夹，里面是空的。我们先通过 Claude 命令打开 Claude Code。根据文件所在位置，尤其是第一次使用，它可能会问你是否信任这个文件夹中的文件，我选择信任。这里有一些入门提示，但我用一个非常简单的提示开始：制作一个很酷的可视化效果。让我开始吧。我们将看到 Claude Code 开始列出要采取的行动。你可以想象这个任务可能是搜索代码库、编辑文件、编写任务、交付洞察或创建可视化，取决于 Claude Code 的判断，可能是粒子效果或烟花之类的，但我想向你展示开箱即用后，你多快就能看到 Claude Code 带来的变化。因为我们在 Visual Studio Code 中操作，而 Claude Code 与这个编辑器有集成，我们将能看到正在进行的更改。接受这些。在未来的版本中，Claude Code 可以自己完成所有这些操作而无需我的许可。\n- [440.0-495.0] 我们可以看到这里有一个可视化效果，已经构建好了。让我们在浏览器中打开它，看看 Claude Code 为我做了什么。它会确认这是哪个命令。让我们看看它长什么样。我们现在有了我们的可视化效果，可能是一些粒子效果。让我们看看。最好开启动画看看发生了什么。清除一下我们得到的东西。我们可以尽可能地扩展这个可视化效果。我们可以更改功能，我们可以在这里添加任何我们想要的东西，但我只是想向你展示开箱即用的体验，让你能快速上手这个工具。在下一课中，我们将探索如何在更大的代码库中使用 Claude Code，并真正领略它在解释更大、更复杂的代码库方面有多么强大。",
-  "subtitle_source": "阿里云 ASR"
+  "last_error": ""
 }

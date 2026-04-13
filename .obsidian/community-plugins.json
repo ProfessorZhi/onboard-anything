@@ -3,5 +3,6 @@
   "github-sync",
   "obsidian-local-rest-api",
   "templater-obsidian",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "data-files-editor"
 ]

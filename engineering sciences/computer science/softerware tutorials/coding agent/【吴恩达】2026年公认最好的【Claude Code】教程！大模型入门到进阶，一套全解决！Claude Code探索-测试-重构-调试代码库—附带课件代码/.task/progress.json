@@ -1,9 +1,14 @@
-{
-  "status": "completed",
-  "current_stage": "completed",
-  "completed_pages": 10,
-  "total_pages": 10,
-  "current_page": null,
-  "last_error": "",
-  "resumable": true
+﻿{
+    "status":  "paused",
+    "current_stage":  "subtitle_extraction",
+    "completed_pages":  7,
+    "total_pages":  10,
+    "current_page":  10,
+    "detail":  "P10 路 鏈湴 Whisper 杞啓鍒嗘 1/1",
+    "last_error":  "",
+    "resumable":  true,
+    "percent":  41,
+    "eta_seconds":  176,
+    "started_at":  1775979419.8920472,
+    "updated_at":  1776012360.7798
 }
