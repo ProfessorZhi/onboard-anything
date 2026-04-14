@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d0355ef5c34e4e76",
+        "id": "cc0c38980f283063",
         "type": "tabs",
         "children": [
           {
-            "id": "516eaa493daf7a0d",
+            "id": "47c1c031bc4ce54a",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "ec60b7dc3ee5e624",
@@ -182,8 +182,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "516eaa493daf7a0d",
+  "active": "47c1c031bc4ce54a",
   "lastOpenFiles": [
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/03-进阶篇/03-进阶篇.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/02-基础篇-开发环境搭建/P03-【基础篇】安装PyCharm和AI插件/P03-【基础篇】安装PyCharm和AI插件.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/01-导论篇/01-导论篇-课程介绍与学习路线/P01-【前言】Python小白学习指南/P01-【前言】Python小白学习指南-字幕.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/01-导论篇/01-导论篇-课程介绍与学习路线/P01-【前言】Python小白学习指南/P01-【前言】Python小白学习指南-资源清单.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/01-导论篇/01-导论篇-课程介绍与学习路线/P01-【前言】Python小白学习指南/P01-【前言】Python小白学习指南-知识框架.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/01-导论篇/01-导论篇-课程介绍与学习路线/P01-【前言】Python小白学习指南/P01-【前言】Python小白学习指南-练习题.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/01-导论篇/01-导论篇-课程介绍与学习路线/P01-【前言】Python小白学习指南/P01-【前言】Python小白学习指南-讲解过程.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/01-导论篇/01-导论篇-课程介绍与学习路线/P01-【前言】Python小白学习指南/P01-【前言】Python小白学习指南.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/0-课程总览/课程练习题.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/01-导论篇/01-导论篇-课程介绍与学习路线/01-导论篇-课程介绍与学习路线.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/0-课程总览/原始分P目录.md",
@@ -212,14 +220,6 @@
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/06-数据分析篇/15-数据分析篇-NumPy数组计算/P91-【数据分析】索引和切片/P91-【数据分析】索引和切片.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/06-数据分析篇/15-数据分析篇-NumPy数组计算/P90-【数据分析】numpy的简介和数组的创建/P90-【数据分析】numpy的简介和数组的创建.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/06-数据分析篇/15-数据分析篇-NumPy数组计算/P89-【数据分析】数据分析师与需求分析/P89-【数据分析】数据分析师与需求分析.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/06-数据分析篇/15-数据分析篇-NumPy数组计算/P88-【数据分析】数据分析环境搭建/P88-【数据分析】数据分析环境搭建.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/05-爬虫篇/14-爬虫篇-浏览器自动化与反爬对抗/P87-【网络爬虫】字体反爬破解/P87-【网络爬虫】字体反爬破解.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/05-爬虫篇/14-爬虫篇-浏览器自动化与反爬对抗/P86-【网络爬虫】js逆综合项目/P86-【网络爬虫】js逆综合项目.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/05-爬虫篇/14-爬虫篇-浏览器自动化与反爬对抗/P85-【网络爬虫】IP池和Cookie池/P85-【网络爬虫】IP池和Cookie池.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/05-爬虫篇/14-爬虫篇-浏览器自动化与反爬对抗/P84-【网络爬虫】多线程并发爬虫案例/P84-【网络爬虫】多线程并发爬虫案例.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/05-爬虫篇/14-爬虫篇-浏览器自动化与反爬对抗/P83-【网络爬虫】JS反调试破解/P83-【网络爬虫】JS反调试破解.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/05-爬虫篇/14-爬虫篇-浏览器自动化与反爬对抗/P82-【网络爬虫】反爬破解之验证码识别/P82-【网络爬虫】反爬破解之验证码识别.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！-旧产物-20260413-235451/05-爬虫篇/14-爬虫篇-浏览器自动化与反爬对抗/P81-【网络爬虫】JS逆向滑动验证码轨迹破解/P81-【网络爬虫】JS逆向滑动验证码轨迹破解.md",
     "未命名.canvas"
   ]
 }
