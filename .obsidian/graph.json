@@ -5,18 +5,47 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:课程首页",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#篇  ",
+      "color": {
+        "a": 1,
+        "rgb": 14066524
+      }
+    },
+    {
+      "query": "tag:#章节  ",
+      "color": {
+        "a": 1,
+        "rgb": 9264342
+      }
+    },
+    {
+      "query": "tag:#网课  ",
+      "color": {
+        "a": 1,
+        "rgb": 12737750
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 0.94043659043659,
-  "lineSizeMultiplier": 2.10176715176715,
+  "textFadeMultiplier": -0.1,
+  "nodeSizeMultiplier": 1.20530145530146,
+  "lineSizeMultiplier": 1.67390852390852,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.7132754626223985,
+  "centerStrength": 0.761954261954262,
+  "repelStrength": 20,
+  "linkStrength": 0.994802494802495,
+  "linkDistance": 447,
+  "scale": 0.2588386562181438,
   "close": true
 }

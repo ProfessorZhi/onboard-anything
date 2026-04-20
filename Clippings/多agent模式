@@ -1,0 +1,210 @@
+你这里说的应该是 **Microsoft AutoGen**。先抓本质：
+
+**多 Agent 模式 = 多个智能体怎么分工、怎么传递上下文、谁来做决策。**
+不是先看框架名，而是先看**控制权在谁手里**、**信息怎么流动**、**何时结束**。你上传的路线里先把它压成 **Supervisor / Debate / Loop**，这个切法很适合入门。
+
+我给你一个更接近工程的分类。
+
+## 一、最常见的 8 种模式
+
+### 1) Supervisor / Hierarchical
+
+一个上层 Agent 负责拆任务、派活、收结果、做最终决策。
+典型流：`Planner -> Worker(s) -> Reviewer`。
+
+适合：
+
+* 任务可以明确拆分
+* 你想控制流程
+* 你要审计、可观测、可回放
+
+优点是稳，缺点是中心节点容易变瓶颈。
+AutoGen 现有官方能力里，`SelectorGroupChat` 很接近这种“中心路由/选择下一位发言者”的思路；Microsoft 现在也更推荐新项目转向 **Microsoft Agent Framework**。([微软GitHub][1])
+
+### 2) Sequential Workflow / Pipeline
+
+固定顺序串行处理。
+典型流：`Agent A -> Agent B -> Agent C`。
+
+适合：
+
+* 流程稳定
+* 每一步职责很清楚
+* 不需要太多动态决策
+
+这是最便宜、最容易测的多 Agent 形态。AutoGen Core 文档把它作为正式设计模式之一。([微软GitHub][2])
+
+### 3) Group Chat / Round Robin
+
+多个 Agent 共享上下文，轮流发言。
+典型流：A 说一轮，B 说一轮，C 说一轮，直到终止条件满足。
+
+适合：
+
+* 头脑风暴
+* 多视角补充
+* 不需要强控制，但需要持续协作
+
+AutoGen 里有 `RoundRobinGroupChat` 这一类模式。([Microsoft Learn][3])
+
+### 4) Selector / Router
+
+大家共享上下文，但**不是固定轮流**，而是由一个模型或路由器决定“下一步该谁说/谁做”。
+这比 Round Robin 更聪明，也更像“轻量 Supervisor”。
+
+适合：
+
+* 角色很多
+* 任务路径不固定
+* 想减少无效轮次
+
+AutoGen 的 `SelectorGroupChat` 就是官方现成实现：模型根据上下文和角色描述选下一位发言者。([微软GitHub][1])
+
+### 5) Swarm / Handoff
+
+没有强中心调度器，Agent 自己决定把任务交给谁。
+典型流：A 做到一半发现该 B 接手，就 handoff 给 B。
+
+适合：
+
+* 角色边界清楚
+* 希望局部自治
+* 希望减少中心 orchestrator 的提示负担
+
+AutoGen 的 `Swarm` 官方定义就是这种模式：Agent 通过 handoff 把任务交给别的 Agent，且共享同一消息上下文。([微软GitHub][4])
+
+### 6) Debate
+
+两个或多个 Agent 对同一问题提出相反或竞争性观点，再由 Judge/Reviewer 汇总。
+典型流：`Proposer A <-> Proposer B -> Judge`
+
+适合：
+
+* 高风险推理
+* 需要反驳和交叉验证
+* 想降低单一路径幻觉
+
+AutoGen Core 文档把 **Multi-Agent Debate** 列为正式设计模式之一。([微软GitHub][2])
+
+### 7) Reflection / Critic-Revise
+
+一个 Agent 先产出初稿，另一个 Critic 专门挑错，再回到原 Agent 修订。
+这不是“多角度协作”，而是“生成-审查-修正”。
+
+适合：
+
+* 代码生成
+* 长文写作
+* 要求格式和正确率的任务
+
+AutoGen Core 文档也把 **Reflection** 单独列为设计模式。([微软GitHub][5])
+
+### 8) Fan-out / Fan-in / Mixture of Agents
+
+把同一任务并行发给多个 Worker，再聚合结果；或者分层并行再汇总。
+典型流：`Orchestrator -> 多个并行 Worker -> Aggregator`
+
+适合：
+
+* 需要并行搜索、并行分析
+* 希望多样性
+* 可以花更多 token 换更稳结果
+
+AutoGen 文档里的 **Mixture of Agents** 就是这种分层 worker + 单 orchestrator 聚合的结构。([微软GitHub][2])
+
+---
+
+## 二、你文档里的 3 个模式，怎么放到全局里看
+
+### Supervisor 模式
+
+这是**中心化编排**。
+你的 `Planner -> Worker -> Reviewer` 是最经典版本。适合做业务工作流、复杂工具链、企业应用。
+
+### Debate 模式
+
+这是**对抗式校验**。
+不是为了快，而是为了让答案更稳。高成本，高鲁棒。
+
+### Loop 模式
+
+你这个词更偏工程口语，不是所有框架的统一官方名。它本质上是：
+
+**若干 Agent/节点在一个图里反复迭代，直到某个终止条件成立。**
+
+LangGraph 很适合做这种显式状态机和循环图；AutoGen 里的 GroupChat / Selector / Swarm 也都能形成 loop。 ([微软GitHub][1])
+
+---
+
+## 三、如果只从 AutoGen 角度记，先记这 6 个
+
+最值得先建立的映射是：
+
+* **Sequential Workflow**：固定流水线
+* **RoundRobinGroupChat**：轮询协作
+* **SelectorGroupChat**：模型路由
+* **Swarm / Handoff**：去中心移交
+* **Reflection**：批判-修订
+* **Multi-Agent Debate**：对抗辩论
+* **Mixture of Agents**：并行/分层聚合
+
+这些都能在 AutoGen 官方稳定文档或迁移文档中找到对应设计。([微软GitHub][1])
+
+---
+
+## 四、怎么选，不要背模式名，直接看需求
+
+### 任务流程固定
+
+用 **Sequential Workflow**
+
+### 任务复杂，但你想强控制
+
+用 **Supervisor / Selector**
+
+### 想让角色自己转交任务
+
+用 **Swarm / Handoff**
+
+### 想提升正确率
+
+用 **Reflection** 或 **Debate**
+
+### 想用更多 token 换更强覆盖
+
+用 **Fan-out / Mixture of Agents**
+
+### 需要有状态反复迭代
+
+用 **Loop / Graph**
+这也是你现在最该重点学的，因为真实业务最后大多都会落到“有状态的图 + 条件跳转 + 重试 + 终止条件”。 ([微软GitHub][1])
+
+---
+
+## 五、一个很重要的更新
+
+如果你是现在开始学 Microsoft 这条线，别只盯 AutoGen。
+截至 2026 年，**AutoGen 仓库已经标注为 maintenance mode**，微软官方建议新项目优先用 **Microsoft Agent Framework**，AutoGen 更适合拿来理解多 Agent 经典模式和看历史生态。([GitHub][6])
+
+---
+
+## 六、最短学习路径
+
+你现在最短路径不是“把所有模式都背下来”，而是只吃透这 3 层：
+
+1. **Sequential / Supervisor**
+2. **Selector / Swarm**
+3. **Loop + Reflection**
+
+这三层吃透后，再看 Debate 和 Mixture of Agents，就不会乱。
+
+下一步我建议我直接给你画一张：
+
+**单 Agent → Supervisor → Swarm → Loop(LangGraph/AutoGen) 的演进图**。
+
+[1]: https://microsoft.github.io/autogen/stable//user-guide/agentchat-user-guide/selector-group-chat.html "Selector Group Chat — AutoGen"
+[2]: https://microsoft.github.io/autogen/stable//user-guide/core-user-guide/design-patterns/mixture-of-agents.html "Mixture of Agents — AutoGen"
+[3]: https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/ "AutoGen to Microsoft Agent Framework Migration Guide | Microsoft Learn"
+[4]: https://microsoft.github.io/autogen/stable//user-guide/agentchat-user-guide/swarm.html "Swarm — AutoGen"
+[5]: https://microsoft.github.io/autogen/stable//user-guide/core-user-guide/design-patterns/intro.html "Intro — AutoGen"
+[6]: https://github.com/microsoft/autogen "GitHub - microsoft/autogen: A programming framework for agentic AI · GitHub"

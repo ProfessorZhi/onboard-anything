@@ -1,0 +1,110 @@
+你说的应该是 **Claude Code**。就目前公开信息看，**它不是单一的 Debate 型多 Agent**，更准确的归类是：
+
+**以 Supervisor / Orchestrator 为主，叠加 Subagent Handoff、Router、以及可循环执行的 agent loop。** 最近泄露的是 Claude Code 的客户端 agent harness 源码；Anthropic 这边公开文档也明确说明 Claude Code 和它的 SDK 都有主代理调用子代理、上下文隔离、并行处理这些机制。([zscaler.com][1])
+
+更直白点说：
+
+## 1. 默认 Claude Code：更像“主代理 + 专门子代理”
+
+官方文档写得很清楚：Claude Code 有内建的 **Explore、Plan、general-purpose** 等 subagents，主代理会根据任务描述自动决定是否委派给这些子代理；子代理各自有独立上下文，结束后只把摘要回传给主代理。SDK 文档还明确说，子代理可以用于**上下文隔离、并行化、专门化指令**。这套结构本质上就是 **Supervisor / Router / Handoff** 的混合体，不是平级辩论。([Claude][2])
+
+所以你前面那套模式里，如果硬要对应：
+
+* **最接近：Supervisor**
+* 其次带一点 **Loop**
+* 再带一点 **Handoff / Router**
+* **不太像：Debate**
+
+## 2. 它不是 Debate 模式
+
+Debate 模式的核心是：
+
+`Agent A <-> Agent B <-> Judge`
+
+也就是多个平级代理互相反驳，再由裁判汇总。
+Claude Code 公布的主架构不是这个思路。公开资料里重点是**主代理委派给子代理**、子代理做探索/计划/执行、再把结果交回主代理，而不是让两个代理长期对辩。([Claude][2])
+
+所以如果有人把 Claude Code 说成“典型 Debate 多 Agent”，这个说法不准。
+
+## 3. 它也不是纯 GroupChat，而是“受控层级协作”
+
+Anthropic 在安全说明里专门提到 **subagent handoff**：任务委派出去时会做检查，结果回来的时候还会再检查。这说明内部语义就是：
+
+**orchestrator → subagent → orchestrator**
+
+也就是非常典型的**中心协调者 + 被委派执行者**模型。([Anthropic][3])
+
+这跟 AutoGen 里那种“大家在一个共享聊天室里轮流说话”的 Round Robin/GroupChat 不一样。Claude Code 的默认风格更强控制、更像“总控派活”。
+
+## 4. 新的 Agent Teams：这是非常明确的 Supervisor 模式
+
+Claude Code 现在还有一个官方的 **agent teams** 能力。文档直接写了：一个 team 由 **lead** 和多个 **teammates** 组成，lead 负责创建团队、spawn teammates、协调任务；团队里有共享 task list 和 mailbox；还可以要求 teammate 先做 plan，再由 lead 审批后实施。([Claude][4])
+
+这已经不是“像 Supervisor”，而是**明牌的 Supervisor / Hierarchical multi-agent**：
+
+`Lead -> Teammates -> Plan approval / execution`
+
+你要是用你自己的术语来记，Claude Code 的 teams 基本就是：
+
+**Planner/Supervisor + Workers + optional review gate**
+
+## 5. 它为什么又有一点 Loop 味道
+
+Claude Code 的 SDK 官方描述里说，Agent SDK 提供了和 Claude Code 相同的 **tools、agent loop、context management**。而 Claude Code 本体又支持 plan mode、自动委派、执行、再根据结果继续推进；复杂任务里它会反复“研究 → 计划 → 修改 → 验证”。这就是典型的 **agent loop**，只是外面包了一层 orchestrator/subagent 结构。([Claude API Docs][5])
+
+所以最准确的说法不是“它是什么单一模式”，而是：
+
+**Claude Code = 单主代理编排 + 专门子代理委派 + 循环执行。**
+
+## 6. 一句话定性
+
+如果你要在你列的模式里做最实用的判断：
+
+* **Claude Code 默认形态**：
+  **Supervisor / Router / Handoff + Loop**
+* **Claude Code Agent Teams**：
+  **显式 Supervisor 模式**
+* **不是核心 Debate 架构**
+
+再压缩一句：
+
+**它更像“总控带几个专职手下干活”，不是“几个平级智能体开辩论会”。** ([Claude][2])
+
+你要的话，我可以直接把 **Claude Code、LangGraph、AutoGen** 三家的多 Agent 形态给你画成一张对照表。
+
+[1]: https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak "Anthropic Claude Code Leak | ThreatLabz"
+[2]: https://code.claude.com/docs/en/sub-agents "Create custom subagents - Claude Code Docs"
+[3]: https://www.anthropic.com/engineering/claude-code-auto-mode "Claude Code auto mode: a safer way to skip permissions \ Anthropic"
+[4]: https://code.claude.com/docs/en/agent-teams "Orchestrate teams of Claude Code sessions - Claude Code Docs"
+[5]: https://docs.anthropic.com/en/docs/claude-code/sdk/sdk-overview "Agent SDK overview - Claude Code Docs"
+继续往下拆，按你笔记里那套 **Supervisor / Debate / Loop** 的分类来看，**Claude Code 最像的是 “Supervisor + Loop”，再夹一点点 Swarm/Team 协作味道；它不是以 Debate 为核心。** 这是把你文档里的分类法映射到 Claude Code 官方公开结构上的结论。
+
+先说“最近泄露”到底泄露了什么：公开报道和安全分析都指向同一件事——Anthropic 在公开 npm 包里误带了一个 source map，暴露了大约 51.3 万行、1900 多个文件的 **Claude Code 客户端 agent harness / TypeScript 代码**；Anthropic 公开说这是打包的人为错误，不涉及客户数据或凭证，也**不等于 Claude 底层模型本身被泄露**。([Zscaler][1])
+
+所以，从这次泄露和官方文档里，你能看到的是 **Claude Code 的编排层和工具层**，而不是完整服务端推理栈。基于这些公开材料，更准确的说法不是“Claude Code 是某一个单一多 Agent 模式”，而是：**单会话里是主代理驱动的 agent loop；需要分工时，主代理会把任务委派给 subagents；更复杂时，还能升级到带 team lead 的多会话协作。** 这更像层级化 orchestrator，而不是平级辩论。([Claude API Docs][2])
+
+第一层是 **单会话主代理**。Anthropic 的 Agent SDK 直接写明，SDK 提供的是与 Claude Code 相同的 **tools、agent loop、context management**。这说明 Claude Code 的核心不是“聊天室式多 Agent”，而是一个会反复执行“读代码 / 跑命令 / 编辑 / 再判断下一步”的 **agent loop**。这一层对应你笔记里的 **Loop 模式**。([Claude API Docs][2])
+
+第二层是 **subagents**。官方文档写得很明确：Claude 遇到匹配某个 subagent 描述的任务时，会把任务委派给该 subagent；subagent 在**独立上下文**里工作，最后回传结果摘要。Claude Code 还内置了 `Explore`、`Plan`、`general-purpose` 这类子代理。这个结构几乎就是标准的 **Supervisor / Planner → Worker**：主代理负责判断“该不该委派、委派给谁”，子代理负责局部探索或规划。([Claude][3])
+
+第三层是 **agent teams**。官方把它定义成：一个 session 当 **team lead**，负责协调、分配任务、综合结果；多个 teammate 各自在独立上下文里工作，而且 teammates 之间还能直接通信。这里就不再是“单个主代理 + 只能回传给主代理”的结构了，而是 **Hierarchical Supervisor** 上面再叠了一点 **peer-to-peer / swarm** 能力。也就是说，Claude Code 团队模式不是纯中央集权，但核心控制权仍然主要在 lead 手里。([Claude][4])
+
+这也是为什么我前面说它**不是 Debate 为主**。Debate 的核心是平级代理互相反驳，再由 judge 裁决；而 Claude Code 公开文档的主叙事不是 A 和 B 长时间互辩，而是 **lead/subagent 负责拆任务、并行探索、验证不同假设，再综合结果**。官方确实提到 teams 适合“并行研究”和“测试 competing hypotheses”，但这更像“并行探索后汇总”，不是经典的 `Agent A <-> Agent B <-> Judge`。([Claude][4])
+
+如果把它压缩成一句工程判断：**Claude Code 的默认内核是单 Agent loop；它的多 Agent 扩展主要走 Supervisor/Handoff/Team 协作路线，而不是 Debate 路线。** 泄露出来的代码和报道里提到的一些未发布能力，比如更主动的后台 agent 或其他实验性功能，也没有改变这个判断，只是说明 Anthropic 正在把这个 orchestrator 继续往“更主动、更常驻、更会分工”方向推。([The Verge][5])
+
+你现在最该抓住的不是“Claude Code 到底算不算某个纯模式”，而是这个三层抽象：
+
+1. **Core loop**：单代理循环执行
+2. **Subagents**：主代理委派给专用子代理
+3. **Teams**：lead 带多个独立 session 并行协作
+
+这三层一旦看懂，你再看 LangGraph、AutoGen、OpenAI Agents SDK，其实都只是“状态机、委派、并行、终止条件”这四件事的不同封装。([Claude API Docs][2])
+
+下一步最值钱的是我直接把 **Claude Code / LangGraph / AutoGen** 三家按“谁负责调度、上下文是否隔离、能否并行、是否支持 peer-to-peer”做一张对照图。
+
+[1]: https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak "Anthropic Claude Code Leak | ThreatLabz"
+[2]: https://docs.anthropic.com/en/docs/claude-code/sdk/sdk-overview "Agent SDK overview - Claude Code Docs"
+[3]: https://code.claude.com/docs/en/sub-agents "Create custom subagents - Claude Code Docs"
+[4]: https://code.claude.com/docs/en/agent-teams "Orchestrate teams of Claude Code sessions - Claude Code Docs"
+[5]: https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent | The Verge"

@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fcc4a2afe02a7f8f",
+        "id": "c53a82ec087f0024",
         "type": "tabs",
         "children": [
           {
-            "id": "e92642b5f5c20fb5",
+            "id": "5d84ed43ff10b862",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Agent开发学习路线.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Agent开发学习路线"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -196,8 +182,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e92642b5f5c20fb5",
+  "active": "5d84ed43ff10b862",
   "lastOpenFiles": [
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/P06-常见内置对象的完整签名与构造方式.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/课程提示词.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/测试/T01-P06-输入函数-进阶测试/答案.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/测试/T01-P06-输入函数-进阶测试/讲评.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/测试/T01-P06-输入函数-进阶测试/我的作答.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/测试/tests-index.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/测试/T01-P06-输入函数-进阶测试/题目.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/测试/T01-P06-输入函数-进阶测试",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/04-练习篇/12-练习篇-基础与进阶题集/12-练习篇-基础与进阶题集.md",
+    "Clippings/Agent开发学习路线.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/Agent-Demo/P06___dict___自定义对象_vs_list.py",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/Agent-Demo/P06_list_属性与方法演示.py",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/06-数据分析篇.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/课程首页.md",
+    "Clippings/LangChain LangGraph.md",
+    "Clippings/claudecode多agent模式",
+    "Clippings/多agent模式",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/我的笔记/P06-参数绑定流程图.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/我的笔记/P06-位置传参与关键字传参.md",
+    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/我的笔记/P06-本轮题目错题整理-签名与传参.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/我的笔记/P06-函数签名与传参规则.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/我的笔记/P06-list实例与list类型对象.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/我的笔记/P06-str实例与str类型对象.md",
@@ -210,33 +216,13 @@
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/Agent-Demo/P06_input_最小示例.py",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/P06-输入函数-学习引导.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P06-【基础篇】输入函数/工作空间/Agent-Demo",
-    "Clippings/Agent开发学习路线.md",
     "Pasted image 20260414115906.png",
     "Clippings/Pasted image 20260414113941.png",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间/Agent-Demo/P05_GC垃圾回收机制.py",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间/Agent-Demo/P05_变量是标签_对象在右边.py",
     "Clippings/image.webp",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间/我的笔记/P05-GC垃圾回收机制.md",
     "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间/我的笔记/P05-变量是标签-对象在等号右边.md",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间/Agent-Demo",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间/我的代码",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间/我的笔记",
-    "engineering sciences/computer science/coding language/python/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/02-基础篇/03-基础篇-基础语法入门/P05-【基础篇】变量的定义与赋值/工作空间",
     "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P99-【数据分析】pandas文件读取与保存/P99-【数据分析】pandas文件读取与保存.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P99-【数据分析】pandas文件读取与保存/P99-【数据分析】pandas文件读取与保存-资源清单.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P99-【数据分析】pandas文件读取与保存/P99-【数据分析】pandas文件读取与保存-讲解过程.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P99-【数据分析】pandas文件读取与保存/P99-【数据分析】pandas文件读取与保存-练习题.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P99-【数据分析】pandas文件读取与保存/P99-【数据分析】pandas文件读取与保存-知识框架.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P99-【数据分析】pandas文件读取与保存/P99-【数据分析】pandas文件读取与保存-字幕.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P98-【数据分析】pandas入门2df常见操作/P98-【数据分析】pandas入门2df常见操作.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P98-【数据分析】pandas入门2df常见操作/P98-【数据分析】pandas入门2df常见操作-资源清单.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P98-【数据分析】pandas入门2df常见操作/P98-【数据分析】pandas入门2df常见操作-讲解过程.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P98-【数据分析】pandas入门2df常见操作/P98-【数据分析】pandas入门2df常见操作-练习题.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P98-【数据分析】pandas入门2df常见操作/P98-【数据分析】pandas入门2df常见操作-知识框架.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P98-【数据分析】pandas入门2df常见操作/P98-【数据分析】pandas入门2df常见操作-字幕.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P97-【数据分析】pandas入门/P97-【数据分析】pandas入门.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P97-【数据分析】pandas入门/P97-【数据分析】pandas入门-资源清单.md",
-    "engineering sciences/computer science/coding language/【全500集】2026年最详细最全的Python入门零基础教程，包含所有知识点，从小白到Python大神！理论+实操一步到位！存下吧，很难找全的！/06-数据分析篇/16-数据分析篇-Pandas数据处理/P97-【数据分析】pandas入门/P97-【数据分析】pandas入门-讲解过程.md",
     "Pasted image 20260414113941.png",
     "未命名.canvas"
   ]
